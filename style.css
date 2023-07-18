@@ -42,7 +42,7 @@ a {
 }
 
 .logo {
-  background-image: url("/SONY/images/sony-logo.jpg");
+  background-image: url("/images/sony-logo.jpg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -294,7 +294,7 @@ li:not(.active)>.dropdown-content {
   border-color: #999;
   height: 35%;
   text-align: left;
-  background-image: url("/SONY/images/search.svg");
+  background-image: url("/images/search.svg");
   background-repeat: no-repeat;
   background-position: right;
   background-size: 10%;
@@ -339,28 +339,28 @@ li:not(.active)>.dropdown-content {
 }
 
 #first-slide {
-  background-image: url("/SONY/images/mini-first-slide/madden-23-wall.jpg");
+  background-image: url("/images/mini-first-slide/madden-23-wall.jpg");
   background-position: center;
   background-size: cover;
 }
 
 #second-slide {
-  background-image: url("/SONY/images/mini-first-slide/saints-row-wall.jpg");
+  background-image: url("/images/mini-first-slide/saints-row-wall.jpg");
   background-size: cover;
 }
 
 #third-slide {
-  background-image: url("/SONY/images/mini-first-slide/the-last-of-us-wall.jpg");
+  background-image: url("/images/mini-first-slide/the-last-of-us-wall.jpg");
   background-size: cover;
 }
 
 #fourth-slide {
-  background-image: url("/SONY/images/mini-first-slide/nba-2k23-wall.jpg");
+  background-image: url("/images/mini-first-slide/nba-2k23-wall.jpg");
   background-size: cover;
 }
 
 #fifth-slide {
-  background-image: url("/SONY/images/mini-first-slide/ps5-new-controllers.jpg");
+  background-image: url("/images/mini-first-slide/ps5-new-controllers.jpg");
   background-size: cover;
 }
 
@@ -1123,7 +1123,7 @@ li:not(.active)>.dropdown-content {
 }
 
 .this-month {
-  background-image: url("/SONY/images/the-last-of-us-news.webp");
+  background-image: url("/images/the-last-of-us-news.webp");
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -1447,7 +1447,7 @@ li:not(.active)>.dropdown-content {
 }
 
 .new-releases {
-  background-image: url("/SONY/images/stray-2.jpg");
+  background-image: url("/images/stray-2.jpg");
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -1474,7 +1474,7 @@ li:not(.active)>.dropdown-content {
 
 @media only screen and (max-width: 767px) {
   .new-releases {
-    background-image: url("/SONY/images/stray-centered.webp");
+    background-image: url("/images/stray-centered.webp");
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -1810,12 +1810,12 @@ figcaption {
 
 .slider-3>.slick-prev {
   left: 89% !important;
-  background-image: url("/SONY/images/left-arrow.png");
+  background-image: url("/images/left-arrow.png");
 }
 
 .slider-3>.slick-next {
   right: 4% !important;
-  background-image: url("/SONY/images/right-arrow.png");
+  background-image: url("/images/right-arrow.png");
 }
 
 .slider-4 {
@@ -2158,7 +2158,7 @@ figcaption {
 .psp {
   display: flex;
   flex-direction: row;
-  background-image: url("/SONY/images/others/fondo-ps-plus.webp");
+  background-image: url("/images/others/fondo-ps-plus.webp");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 3rem 22.5px 0 22.5px;
@@ -2166,7 +2166,7 @@ figcaption {
 
 @media only screen and (max-width: 767px) {
   .psp {
-    background-image: url("/SONY/images/others/fondo-ps-plus-2.webp");
+    background-image: url("/images/others/fondo-ps-plus-2.webp");
   }
 }
 
@@ -2684,7 +2684,7 @@ figcaption {
 }
 
 .ps-shop {
-  background-image: url("/SONY/images/others/pshop.jpg");
+  background-image: url("/images/others/pshop.jpg");
   background-size: cover;
   color: #fff;
   padding: 3rem 22.5px 0 22.5px;
@@ -3279,12 +3279,12 @@ figcaption {
 
 .news-blog>.slick-prev {
   left: 5%;
-  background-image: url("/SONY/images/left-arrow.png");
+  background-image: url("/images/left-arrow.png");
 }
 
 .news-blog>.slick-next {
   right: 5%;
-  background-image: url("/SONY/images/right-arrow.png");
+  background-image: url("/images/right-arrow.png");
 }
 
 .img-news {
