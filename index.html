@@ -5,168 +5,1826 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="/Portfolio/assets/styles/style.css" />
-  <link rel="shortcut icon" href="/Portfolio/images/icono.png">
-  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="shortcut icon" href="images/sony.png">
+  <link href="http://fonts.cdnfonts.com/css/sst" rel="stylesheet">
+
+
+  <title>
+    PlayStation® Official Site: Consoles, Games, Accesories & More
+  </title>
 </head>
 
+
+
 <body>
-  <header id="principal">
-    <nav>
-      <ul>
-        <li class="parts">
-          <a href="#first">
-            <h1 class="parts-text">Home</h1>
+  <header>
+    <div class="sony">
+      <a href="https://www.sony.com/en/"></a>
+      <span class="logo ">
+      </span>
+    </div>
+  </header>
+  <section id="principal">
+    <div class="barra">
+      <nav class="navigation">
+        <div class="container-ps-logo">
+          <a href="https://www.playstation.com/en-us/">
+            <img src="/SONY/images/ps-logo-navbar.png" srcset="" class="ps-logo">
+          </a>
+        </div>
+        <ul class="menu">
+          <li class="menu-content">
+            <a href="#" class="dropdown">Games</a>
+            <ul class="dropdown-content">
+              <li><a href="#">HTML</a></li>
+              <li><a href="#">CSS</a></li>
+            </ul>
+          </li>
+          <li class="menu-content">
+            <a href="#" class="dropdown">Hadware</a>
+            <ul class="dropdown-content">
+              <li><a href="#">HTML</a></li>
+              <li><a href="#">CSS</a></li>
+            </ul>
+          </li>
+          <li class="menu-content">
+            <a href="#" class="dropdown">Service</a>
+            <ul class="dropdown-content">
+              <li><a href="#">HTML</a></li>
+              <li><a href="#">CSS</a></li>
+            </ul>
+          </li>
+          <li class="menu-content">
+            <a href="#" class="dropdown">News</a>
+            <ul class="dropdown-content">
+              <li><a href="#">HTML</a></li>
+              <li><a href="#">CSS</a></li>
+            </ul>
+          </li>
+          <li class="menu-content">
+            <a href="#" class="dropdown">Shop</a>
+            <ul class="dropdown-content">
+              <li><a href="#">HTML</a></li>
+              <li><a href="#">CSS</a></li>
+            </ul>
+          </li>
+          <li class="menu-content" id="fifth" onclick="addClass()">
+            <a href="#" class="dropdown">Support</a>
+            <ul class="dropdown-content">
+              <div class="dropdown-content-menu">
+                <li class="menu-products"><a href="#" class="menu-product-item">HTML</a></li>
+                <li class="menu-products"><a href="#" class="menu-product-item">CSS</a></li>
+              </div>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <div class="sign">
+        <div class="sign-inside">
+          <div class="button-sign-in">
+            <span class="button-text">Sign In</span>
+          </div>
+        </div>
+      </div>
+      <span class="search">
+        <input type="text" name="Search" id="searchbutton" placeholder="Search">
+      </span>
+    </div>
+  </section>
+  <section>
+    <div class="slider-1">
+      <div class="slides-1">
+        <div class="img-container-1" id="first-slide">
+          <!-- <img src="/SONY/images/mini-first-slide/madden-23-wall.jpg" class="img-slides-1" /> -->
+          <div class="slider-1-content">
+            <div class="slider-1-empty"></div>
+            <div class="slider-1-title">
+              <img src="/SONY/images/slider-for-1/madden-23-banner.png" class="slider-1-banner">
+            </div>
+            <div class="slider-1-text-container">
+              <div class="slider-1-text-container-2">
+                <div class="slider-1-subtitle">
+                  <h2>Available now</h2>
+                </div>
+                <p class="slider-1-p">Play your way into the history books with Madden NFL 23</p>
+              </div>
+              <div class="slider-1-button-container">
+                <button class="slider-1-button">Find out more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="img-container-1" id="second-slide">
+          <!-- <img src="/SONY/images/mini-first-slide/saints-row-wall.jpg" class="img-slides-1" /> -->
+          <div class="slider-1-content">
+            <div class="slider-1-empty"></div>
+            <div class="slider-1-title">
+              <img src="/SONY/images/slider-for-1/saint-row-banner.webp" class="slider-1-banner">
+            </div>
+            <div class="slider-1-text-container">
+              <div class="slider-1-text-container-2">
+                <div class="slider-1-subtitle">
+                  <h2>Welcome to Santo Ileso</h2>
+                </div>
+                <p class="slider-1-p">Saint Row is out now on PS4 & PS5, featuring thrilling sides hustles, criminal
+                  ventures and blockbuster missions.
+                </p>
+              </div>
+              <div class="slider-1-button-container">
+                <button class="slider-1-button">Find out more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="img-container-1" id="third-slide">
+          <!-- <img src="/SONY/images/mini-first-slide/the-last-of-us-wall.jpg" class="img-slides-1" /> -->
+          <div class="slider-1-content">
+            <div class="slider-1-empty"></div>
+            <div class="slider-1-title">
+              <img src="/SONY/images/slider-for-1/the-last-of-us-banner.webp" class="slider-1-banner">
+            </div>
+            <div class="slider-1-text-container">
+              <div class="slider-1-text-container-2">
+                <div class="slider-1-subtitle">
+                  <h2>Available now</h2>
+                </div>
+                <p class="slider-1-p">Relive the beloved game that started it all - rebuilt for PS5.</p>
+              </div>
+              <div class="slider-1-button-container">
+                <button class="slider-1-button">Find out more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="img-container-1" id="fourth-slide">
+          <!-- <img src="/SONY/images/mini-first-slide/nba-2k23-wall.jpg" class="img-slides-1" /> -->
+          <div class="slider-1-content">
+            <div class="slider-1-empty"></div>
+            <div class="slider-1-title">
+              <img src="/SONY/images/slider-for-1/nk23-banner.webp" class="slider-1-banner">
+            </div>
+            <div class="slider-1-text-container">
+              <div class="slider-1-text-container-2">
+                <div class="slider-1-subtitle">
+                  <h2>Answer the call</h2>
+                </div>
+                <p class="slider-1-p">Rise to the occasion and realize your full potential in NBA 2K23, out now on PS4 &
+                  PS5</p>
+              </div>
+              <div class="slider-1-button-container">
+                <button class="slider-1-button">Find out more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="img-container-1" id="fifth-slide">
+          <!-- <img src="/SONY/images/mini-first-slide/ps5-new-controllers-2.jpg" class="img-slides-1" /> -->
+          <div class="slider-1-content">
+            <div class="slider-1-empty"></div>
+            <div class="slider-1-title">
+              <!-- <img src="/SONY/images/stray-title.webp" class="slider-1-banner"> -->
+            </div>
+            <div class="slider-1-text-container">
+              <div class="slider-1-text-container-2">
+                <div class="slider-1-subtitle">
+                  <h2>Perfect your gameplay™</h2>
+                </div>
+                <p class="slider-1-p">Get an edge in gameplay by creating your own custom control to fit your playstyle
+                  wih the DualSense Edge™ wireless controller.</p>
+              </div>
+              <div class="slider-1-button-container">
+                <button class="slider-1-button">Find out more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slider-1-mini">
+        <div class="slider-1-container-mini">
+          <div class="slider-1-container-mini-img">
+            <img src=" /SONY/images/mini-first-slide/madden23.jpg" class="muestras-img " onclick="currentSlide(1)" />
+          </div>
+          <div class="slider-1-container-mini-img">
+            <img src=" /SONY/images/mini-first-slide/saint-row.jpg" class="muestras-img" onclick="(currentSlide(2))" />
+          </div>
+          <div class="slider-1-container-mini-img">
+            <img src=" /SONY/images/mini-first-slide/tlous.jpg" class="muestras-img" onclick="currentSlide(3)" />
+          </div>
+          <div class="slider-1-container-mini-img">
+            <img src=" /SONY/images/mini-first-slide/nba-nk23.jpg" class="muestras-img" onclick="currentSlide(4)" />
+          </div>
+          <div class="slider-1-container-mini-img">
+            <img src=" /SONY/images/mini-first-slide/ps5-new-controllers.jpg" class="muestras-img"
+              onclick="currentSlide(5) " />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <ul class="slider-1-767w">
+      <li class="slider-1-767w-list">
+        <img src="/SONY/images/slider-for-1/madden-23.jpg" class="imgslides" />
+        <div class="slider-1-767w-content">
+          <div class="slider-1-767w-empty">
+          </div>
+          <div class="slider-1-767w-title">
+            <img src="/SONY/images/slider-for-1/madden-23-banner.png" class="slider-1-banner">
+          </div>
+          <div class="slider-1-767w-text-container">
+            <div class="slider-1-767w-text-container-2">
+              <div class="slider-1-767w-subtitle">
+                <h2>Available now</h2>
+              </div>
+              <p class="slider-1-767w-p">Play your way into the history books with Madden NFL 23</p>
+            </div>
+            <div class="slider-1-767w-button-container">
+              <button class="slider-1-767w-button">Find out more</button>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="slider-1-767w-list">
+        <img src="/SONY/images/slider-for-1/saint-row-self-made.jpg" class="imgslides" />
+        <div class="slider-1-767w-content">
+          <div class="slider-1-767w-empty">
+          </div>
+          <div class="slider-1-767w-title">
+            <img src="/SONY/images/slider-for-1/saint-row-banner.webp" class="slider-1-banner">
+          </div>
+          <div class="slider-1-767w-text-container">
+            <div class="slider-1-767w-text-container-2">
+              <div class="slider-1-767w-subtitle">
+                <h2>Welcome to Santo Ileso</h2>
+              </div>
+              <p class="slider-1-767w-p">Saint Row is out now on PS4 & PS5, featuring thrilling sides hustles, criminal
+                ventures and blockbuster missions. </p>
+            </div>
+            <div class="slider-1-767w-button-container">
+              <button class="slider-1-767w-button">Find out more</button>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="slider-1-767w-list">
+        <img src="/SONY/images/slider-for-1/the-last-of-us-remake.jpg" class="imgslides" />
+        <div class="slider-1-767w-content">
+          <div class="slider-1-767w-empty">
+          </div>
+          <div class="slider-1-767w-title">
+            <img src="/SONY/images/slider-for-1/the-last-of-us-banner.webp" class="slider-1-banner">
+          </div>
+          <div class="slider-1-767w-text-container">
+            <div class="slider-1-767w-text-container-2">
+              <div class="slider-1-767w-subtitle">
+                <h2>Available now</h2>
+              </div>
+              <p class="slider-1-767w-p">Relive the beloved game that started it all - rebuilt for PS5.</p>
+            </div>
+            <div class="slider-1-767w-button-container">
+              <button class="slider-1-767w-button">Find out more</button>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="slider-1-767w-list">
+        <img src="/SONY/images/slider-for-1/nba-23.jpg" class="imgslides" />
+        <div class="slider-1-767w-content">
+          <div class="slider-1-767w-empty">
+          </div>
+          <div class="slider-1-767w-title">
+            <img src="/SONY/images/slider-for-1/nk23-banner.webp" class="slider-1-banner">
+          </div>
+          <div class="slider-1-767w-text-container">
+            <div class="slider-1-767w-text-container-2">
+              <div class="slider-1-767w-subtitle">
+                <h2>Answer the call</h2>
+              </div>
+              <p class="slider-1-767w-p">Rise to the occasion and realize your full potential in NBA 2K23, out now on
+                PS4 & PS5</p>
+            </div>
+            <div class="slider-1-767w-button-container">
+              <button class="slider-1-767w-button">Find out more</button>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="slider-1-767w-list">
+        <img src="/SONY/images/slider-for-1/dualsense-edge.jpg" class="imgslides" />
+        <div class="slider-1-767w-content">
+          <div class="slider-1-767w-empty">
+          </div>
+          <div class="slider-1-767w-title">
+            <img src="/SONY/images/stray-title.webp" class="slider-1-banner">
+          </div>
+          <div class="slider-1-767w-text-container">
+            <div class="slider-1-767w-text-container-2">
+              <div class="slider-1-767w-subtitle">
+                <h2>Perfect your gameplay™</h2>
+              </div>
+              <p class="slider-1-767w-p">Get an edge in gameplay by creating your own custom control to fit your
+                playstyle wih the DualSense Edge™ wireless controller.</p>
+            </div>
+            <div class="slider-1-767w-button-container">
+              <button class="slider-1-767w-button">Find out more</button>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <ul class="slider-first-767w">
+      <img src=" /SONY/images/mini-first-slide/madden23.jpg" class="muestras-img" />
+      <img src=" /SONY/images/mini-first-slide/saint-row.jpg" class="muestras-img" />
+      <img src=" /SONY/images/mini-first-slide/tlous.jpg" class="muestras-img" />
+      <img src=" /SONY/images/mini-first-slide/nba-nk23.jpg" class="muestras-img" />
+      <img src=" /SONY/images/mini-first-slide/ps5-new-controllers.jpg" class="muestras-img" />
+    </ul>
+  </section>
+  <section>
+    <div class="slider-2">
+      <div class="slides-2">
+        <div class="start img-container-2">
+          <div class="img-slides-2">
+            <div class="left-slide">
+              <div class="slide-2-text-container">
+                <h3 class="slide-2-title">PlayStation 5 Console</h3>
+                <p class="slide-2-text">PS5 Consoles are currently in stock. <br /> Experience an all-new generation of
+                  incredible PlayStation games.</p>
+              </div>
+              <div>
+                <div class="slide-2-button-1-container">
+                  <button class="slide-2-button-1">Learn more</button>
+                </div>
+                <div class="slide-2-button-2-container">
+                  <button class="slide-2-button-2">Buy now</button>
+                </div>
+              </div>
+            </div>
+            <div class="slider-2-img-container">
+              <img src="/SONY/images/slide-2/ps5.jpg" class="slide-2-img-product" />
+            </div>
+          </div>
+        </div>
+        <div class="img-container-2">
+          <div class="img-slides-2">
+            <div class="left-slide">
+              <div class="slide-2-text-container">
+                <h3 class="slide-2-title">DualSense™ Wireless Controller</h3>
+                <p class="slide-2-text">Immerse yourself in the gaming experience with a controller the supports
+                  responsive haptic feedback and dynamic trigger effects.</p>
+              </div>
+              <div>
+                <div class="slide-2-button-1-container">
+                  <button class="slide-2-button-1">Learn more</button>
+                </div>
+              </div>
+            </div>
+            <div class="slider-2-img-container">
+              <img src="/SONY/images/slide-2/controllers.jpg" class="slide-2-img-product" />
+            </div>
+          </div>
+        </div>
+        <div class="img-container-2">
+          <div class="img-slides-2">
+            <div class="left-slide">
+              <div class="slide-2-text-container">
+                <h3 class="slide-2-title">PULSE 3D™ Wireless Headset</h3>
+                <p class="slide-2-text">Enjoy a seamless wireless experience with a headset fine-tuned for 3D Audio on
+                  PS5 consoles.</p>
+              </div>
+              <div>
+                <div class="slide-2-button-1-container">
+                  <button class="slide-2-button-1">Learn more</button>
+                </div>
+              </div>
+            </div>
+            <div class="slider-2-img-container">
+              <img src="/SONY/images/slide-2/headset.jpg" class="slide-2-img-product" />
+            </div>
+          </div>
+        </div>
+        <div class="img-container-2">
+          <div class="img-slides-2">
+            <div class="left-slide">
+              <div class="slide-2-text-container">
+                <h3 class="slide-2-title">Media Remote</h3>
+                <p class="slide-2-text">Rise to the occasion and realize your fully potential in NBA 2K23, out now on
+                  PS4 & PS5.</p>
+              </div>
+              <div>
+                <div class="slide-2-button-1-container">
+                  <button class="slide-2-button-1">Learn more</button>
+                </div>
+              </div>
+            </div>
+            <div class="slider-2-img-container"><img src="/SONY/images/slide-2/mediaremote.jpg"
+                class="slide-2-img-product" /></div>
+          </div>
+        </div>
+        <div class="img-container-2">
+          <div class="img-slides-2">
+            <div class="left-slide">
+              <div class="slide-2-text-container">
+                <h3 class="slide-2-title">HD Camera</h3>
+                <p class="slide-2-text">Add yourself to your gameplay videos and broadcasts with smooth, sharp, full-HD
+                  capture.</p>
+              </div>
+              <div class="slide-2-button-1-container">
+                <button class="slide-2-button-1">Learn more</button>
+              </div>
+            </div>
+            <div class="slider-2-img-container">
+              <img src="/SONY/images/slide-2/camerahd.jpg" class="slide-2-img-product" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="img-container-2">
+        <div class="img-slides-2">
+          <div class="left-slide">
+            <div class="slide-2-text-container">
+              <h3 class="slide-2-title">PS5 Console Covers</h3>
+              <p class="slide-2-text">Personalise your PlayStation 5 or PlayStation 5 Digital Edition console with a
+                vibrant array of new colour options.</p>
+            </div>
+            <div>
+              <div class="slide-2-button-1-container">
+                <button class="slide-2-button-1">Learn more</button>
+              </div>
+            </div>
+          </div>
+          <div class="slider-2-img-container">
+            <img src="/SONY/images/slide-2/ps5cover.jpg" class="slide-2-img-product" />
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="slider-2-mini">
+      <div class="slider-2-container-mini">
+        <div class="slider-2-container-mini-content" id="first-slider-2">
+          <div class="slide-2-border">
+            <div class="muestras-slide-2-container">
+              <img src="/SONY/images/slide-2/slide2-muestras/ps5.jpg" class="muestras-img-s2"
+                onclick="currentSlide3(1)" />
+            </div>
+            <div class="muestras-text">
+              <p>PS5 Console</p>
+            </div>
+          </div>
+        </div>
+        <div class="slider-2-container-mini-content ">
+          <div class="slide-2-border">
+            <div class="muestras-slide-2-container">
+              <img src="/SONY/images/slide-2/slide2-muestras/controllers.jpg" class="muestras-img-s2"
+                onclick="currentSlide3(2)" />
+            </div>
+            <div class="muestras-text">
+              <p>DualSense™ Wireless <br>Controller</p>
+            </div>
+          </div>
+        </div>
+        <div class="slider-2-container-mini-content ">
+          <div class="slide-2-border">
+            <div class="muestras-slide-2-container">
+              <img src="/SONY/images/slide-2/slide2-muestras/headset.jpg" class="muestras-img-s2"
+                onclick="currentSlide3(3)" />
+            </div>
+            <div class="muestras-text">
+              <p>PULSE 3D™ Wireless <br>Headset</p>
+            </div>
+          </div>
+        </div>
+        <div class="slider-2-container-mini-content ">
+          <div class="slide-2-border">
+            <div class="muestras-slide-2-container">
+              <img src="/SONY/images/slide-2/slide2-muestras/mediaremote.jpg" class="muestras-img-s2"
+                onclick="currentSlide3(4)" />
+            </div>
+            <div class="muestras-text">
+              <p>Media Remote</p>
+            </div>
+          </div>
+        </div>
+        <div class="slider-2-container-mini-content ">
+          <div class="slide-2-border">
+            <div class="muestras-slide-2-container">
+              <img src="/SONY/images/slide-2/slide2-muestras/camerahd.jpg" class="muestras-img-s2"
+                onclick="currentSlide3(5)" />
+            </div>
+            <div class="muestras-text">
+              <p>HD Camera</p>
+            </div>
+          </div>
+        </div>
+        <div class="slider-2-container-mini-content ">
+          <div class="slide-2-border">
+            <div class="muestras-slide-2-container">
+              <img src="/SONY/images/slide-2/slide2-muestras/ps5cover.jpg" class="muestras-img-s2"
+                onclick="currentSlide3(6)" />
+            </div>
+            <div class="muestras-text">
+              <p>PS5 Console Covers</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <ul class="slider-2-767w">
+      <li class="slides-2-767w">
+        <img src="/SONY/images/slide-2/ps5.jpg" class="slide-2-img-product " />
+        <div class="left-slide">
+          <div class="slide-2-text-container">
+            <h3 class="slide-2-title">PlayStation 5 Console</h3>
+            <p class="slide-2-text">PS5 Consoles are currently in stock. <br /> Experience an all-new generation of
+              incredible PlayStation games.</p>
+          </div>
+          <div>
+            <button class="slide-2-button-1">Learn more</button>
+            <button class="slide-2-button-2">Buy now</button>
+          </div>
+        </div>
+      </li>
+      <li class="slides-2-767w">
+        <img src="/SONY/images/slide-2/controllers.jpg" class="slide-2-img-product" />
+        <div class="left-slide">
+          <div class="slide-2-text-container">
+            <h3 class="slide-2-title">DualSense™ Wireless Controller</h3>
+            <p class="slide-2-text">Immerse yourself in the gaming experience with a controller the supports responsive
+              haptic feedback and dynamic trigger effects.</p>
+          </div>
+          <div>
+            <button class="slide-2-button-1">Learn more</button>
+          </div>
+        </div>
+      </li>
+      <li class="slides-2-767w">
+        <img src="/SONY/images/slide-2/headset.jpg" class="slide-2-img-product" />
+        <div class="left-slide">
+          <div class="slide-2-text-container">
+            <h3 class="slide-2-title">PULSE 3D™ Wireless Headset</h3>
+            <p class="slide-2-text">Enjoy a seamless wireless experience with a headset fine-tuned for 3D Audio on PS5
+              consoles.</p>
+          </div>
+          <div>
+            <button class="slide-2-button-1">Learn more</button>
+          </div>
+        </div>
+      </li>
+      <li class="slides-2-767w">
+        <img src="/SONY/images/slide-2/mediaremote.jpg" class="slide-2-img-product" />
+        <div class="left-slide">
+          <div class="slide-2-text-container">
+            <h3 class="slide-2-title">Media Remote</h3>
+            <p class="slide-2-text">Conveniently control movies, streaming services and more on your PS5 console with an
+              intuitive layout.</p>
+          </div>
+          <div>
+            <button class="slide-2-button-1">Learn more</button>
+          </div>
+        </div>
+      </li>
+      <li class="slides-2-767w">
+        <img src="/SONY/images/slide-2/camerahd.jpg" class="slide-2-img-product" />
+        <div class="left-slide">
+          <div class="slide-2-text-container">
+            <h3 class="slide-2-title">HD Camera</h3>
+            <p class="slide-2-text">Add yourself to your gameplay videos and broadcasts with smooth, sharp, full-HD
+              capture.</p>
+          </div>
+          <div>
+            <button class="slide-2-button-1">Learn more</button>
+          </div>
+        </div>
+      </li>
+      <li class="slides-2-767w">
+        <img src="/SONY/images/slide-2/ps5cover.jpg" class="slide-2-img-product" />
+        <div class="left-slide">
+          <div class="slide-2-text-container">
+            <h3 class="slide-2-title">PS5 Console Covers</h3>
+            <p class="slide-2-text">Personalise your PlayStation 5 or PlayStation 5 Digital Edition console with a
+              vibrant array of new colour options.</p>
+          </div>
+          <div>
+            <button class="slide-2-button-1">Learn more</button>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <ul class="slider-second-767w">
+      <div>
+        <div class="slider-second-767w-mini">
+          <img src="/SONY/images/slide-2/slide2-muestras/ps5.jpg" class="muestras-img" />
+        </div>
+        <p>PS5 Console</p>
+      </div>
+      <div>
+        <div class="slider-second-767w-mini">
+          <img src="/SONY/images/slide-2/slide2-muestras/controllers.jpg" class="muestras-img" />
+        </div>
+        <p>DualSense™ Wireless Controller</p>
+      </div>
+      <div>
+        <div class="slider-second-767w-mini">
+          <img src="/SONY/images/slide-2/slide2-muestras/headset.jpg" class="muestras-img" />
+        </div>
+        <p>Pulse 3D™ Wireless Headset</p>
+      </div>
+      <div>
+        <div class="slider-second-767w-mini">
+          <img src="/SONY/images/slide-2/slide2-muestras/mediaremote.jpg" class="muestras-img" />
+        </div>
+        <p>Media Remote</p>
+      </div>
+      <div>
+        <div class="slider-second-767w-mini">
+          <img src="/SONY/images/slide-2/slide2-muestras/camerahd.jpg" class="muestras-img" />
+        </div>
+        <p> HD Camera</p>
+      </div>
+      <div>
+        <div class="slider-second-767w-mini">
+          <img src="/SONY/images/slide-2/slide2-muestras/ps5cover.jpg" class="muestras-img" />
+        </div>
+        <p>PS5 Console Covers</p>
+      </div>
+    </ul>
+  </section>
+  <section>
+    <div class="psp">
+      <div class="psp-grid">
+        <div class="psp-container">
+          <div class="psp-container-2">
+            <div class="psp-psp-image">
+              <img src="/SONY/images/others/ps-plus-free-logo.jpg" class="psp-image">
+            </div>
+            <div class="psp-text-container">
+              <p class="psp-text">Enhance your PlayStation experience with access to online multiplayer, monthly games,
+                exclusive discounts and more.</p>
+            </div>
+          </div>
+          <div class="psp-button-container">
+            <div class="psp-button-container-border">
+              <button class="psp-button">Explore Playstation Plus</button>
+            </div>
+          </div>
+        </div>
+        <div class="psp-games">
+          <img src="/SONY/images/others/games-free.jpg" class="psp-free-games">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="this-month">
+      <div class="superior">
+        <div class="this-month-container">
+          <div class="this-month-container-content">
+            <h2 class="this-month-title">THIS MONTH</h2>
+            <h2 class="this-month-title-2"><b> ON PLAYSTATION</b></h2>
+            <p class="this-month-p"> Check out this month's biggest releases along with dedicated features, guides and
+              more.</p>
+          </div>
+          <div class="this-month-button-container">
+            <button class="this-month-button">Find out more</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="sub-superior">
+      <div class="inferior">
+        <div id="quinto">
+          <div class="inferior-muestras-container">
+            <a
+              href="https://www.playstation.com/en-us/editorial/this-month-on-playstation/21-great-games-you-missed-in-2022/">
+              <img src="/SONY/images/others/1of3.jpg" class="inferior-muestras"></a>
+          </div>
+          <div>
+            <h4>21 great games you might have missed in 2022</h4>
+          </div>
+        </div>
+        <div id="sexto">
+          <div class="inferior-muestras-container">
+            <a
+              href="https://www.playstation.com/en-us/editorial/this-month-on-playstation/20-hidden-gems-playstation-extra/">
+              <img src="/SONY/images/others/2of3.jpg" class="inferior-muestras"></a>
+          </div>
+          <div>
+            <h4>20 hidden gems from PlayStation Plus Extra</h4>
+          </div>
+        </div>
+        <div id="septimo">
+          <div class="inferior-muestras-container">
+            <a href="https://www.playstation.com/en-us/editorial/this-month-on-playstation/great-racing-games-on-ps4/">
+              <img src="/SONY/images/others/3of3.jpg" class="inferior-muestras"></a>
+          </div>
+          <div>
+            <h4>The best racing games on PS4 and PS5</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="new-releases">
+      <div class="new-releases-empty">
+      </div>
+      <div class="new-releases-container-img">
+        <img src="/SONY/images/stray-title.webp" class="new-releases-img">
+      </div>
+      <div class="new-releases-text">
+        <div class="new-releases-text-2">
+          <div class="new-releases-title">
+            <h2>Escape the city</h2>
+          </div>
+          <p class="new-releases-subtitle">Untangle the ancient mystery and find your wa home in this unique feline
+            adventure, out now for PS5</p>
+        </div>
+        <div class="new-realeases-button-container">
+          <button class="new-releases-button">Find out more</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <ul class="slider-3">
+      <li class="slides-3">
+        <div class="slides-3-header">
+          <div>
+            <h3>New releases</h3>
+          </div>
+          <div>
+            <h5>Great PS5 and PS4 games available now</h5>
+          </div>
+        </div>
+        <div class="slide-grid-12">
+          <div class="slide-gird-12-container">
+            <a href="">
+              <img src="/SONY/images/grid-12/thequarry.jpg" class="img-grid" alt="">
+              <figcaption>The Quarry</figcaption>
+            </a>
+          </div>
+          <div class="slide-gird-12-container">
+
+            <a href="">
+              <img src="/SONY/images/grid-12/stray.jpg" class="img-grid" alt="">
+              <figcaption>Stray</figcaption>
+            </a>
+          </div>
+          <div class="slide-gird-12-container">
+
+            <a href="">
+              <img src="/SONY/images/grid-12/hfd.jpg" class="img-grid" alt="">
+              <figcaption>Horizon Forbidden West</figcaption>
+            </a>
+          </div>
+          <div class="slide-gird-12-container">
+
+            <a href="">
+              <img src="/SONY/images/grid-12/eldenring.jpg" class="img-grid" alt="">
+              <figcaption>Elden Ring</figcaption>
+            </a>
+          </div>
+          <div class="slide-gird-12-container">
+
+            <a href="">
+              <img src="/SONY/images/grid-12/uncharted.jpg" class="img-grid" alt="">
+              <figcaption>Uncharted: Legacy of Thieves Collection</figcaption>
+              </ficaption>
+            </a>
+          </div>
+          <div class="slide-gird-12-container">
+
+            <a href="">
+              <img src="/SONY/images/grid-12/wonderlands.jpg" class="img-grid" alt="">
+              <figcaption>Tiny Tina's Wonderlands</figcaption>
+            </a>
+          </div>
+          <div class="slide-gird-12-container">
+
+            <a href="">
+              <img src="/SONY/images/grid-12/sifu2.jpg" class="img-grid" alt="">
+              <figcaption>Sifu</figcaption>
+            </a>
+          </div>
+          <div class="slide-gird-12-container">
+
+            <a href="">
+              <img src="/SONY/images/grid-12/dyinglight.jpg" class="img-grid" alt="">
+              <figcaption>Dying Light Stay Human</figcaption>
+            </a>
+          </div>
+          <div class="slide-gird-12-container">
+
+            <a href="">
+              <img src="/SONY/images/grid-12/lego.jpg" class="img-grid" alt="">
+              <figcaption>LEGO Star Wars: The Skywalker Saga</figcaption>
+            </a>
+          </div>
+          <div class="slide-gird-12-container">
+
+            <a href="">
+              <img src="/SONY/images/grid-12/ghostwire.jpg" class="img-grid" alt="">
+              <figcaption>Ghostwire: Tokio</figcaption>
+            </a>
+          </div>
+          <div class="slide-gird-12-container">
+
+            <a href="">
+              <img src="/SONY/images/grid-12/grandturismo7.jpg" class="img-grid" alt="">
+              <figcaption>Gran Turismo 7</figcaption>
+            </a>
+          </div>
+          <div class="slide-gird-12-container">
+
+            <a href="">
+              <img src="/SONY/images/grid-12/deathloop.jpg" class="img-grid" alt="">
+              <figcaption>Deathloop</figcaption>
+            </a>
+          </div>
+        </div>
+      </li>
+      <li class="slides-3">
+        <div class="slides-3-header">
+          <div>
+            <h3>Coming soon</h3>
+          </div>
+          <div>
+            <h5>Amazing new experiences are just around the corner</h5>
+          </div>
+        </div>
+        <div class="slide-grid-12">
+          <div>
+            <a href="">
+              <img src="/SONY/images/grid-12/hogwarts.jpg" class="img-grid" alt="">
+              <figcaption>Hogwarts Legacy</figcaption>
+            </a>
+          </div>
+          <div>
+            <a href="">
+              <img src="/SONY/images/grid-12/fifa.jpg" class="img-grid" alt="">
+              <figcaption>EA SPORTS Fifa 23</figcaption>
+            </a>
+          </div>
+          <div>
+            <a href="">
+              <img src="/SONY/images/grid-12/callisto.jpg" class="img-grid" alt="">
+              <figcaption>The Callisto Protocol</figcaption>
+            </a>
+          </div>
+          <div>
+            <a href="">
+              <img src="/SONY/images/grid-12/madden.jpg" class="img-grid" alt="">
+              <figcaption>Madden NFL 23</figcaption>
+            </a>
+          </div>
+          <div>
+            <a href="">
+              <img src="/SONY/images/grid-12/saint row.jpg" class="img-grid" alt="">
+              <figcaption>Saint Row</figcaption>
+            </a>
+          </div>
+          <div>
+            <a href="">
+              <img src="/SONY/images/grid-12/gotham.jpg" class="img-grid" alt="">
+              <figcaption>Gotham Knights</figcaption>
+            </a>
+          </div>
+          <div>
+            <a href="">
+              <img src="/SONY/images/grid-12/forspoken.jpg" class="img-grid" alt="">
+              <figcaption>Forspoken</figcaption>
+            </a>
+          </div>
+          <div>
+            <a href="">
+              <img src="/SONY/images/grid-12/cod.jpg" class="img-grid" alt="">
+              <figcaption>Call of Duty: Modern Warfare II</figcaption>
+            </a>
+          </div>
+          <div>
+            <a href="">
+              <img src="/SONY/images/grid-12/thelittle.jpg" class="img-grid" alt="">
+              <figcaption>Little Devil Inside</figcaption>
+            </a>
+          </div>
+          <div>
+            <a href="">
+              <img src="/SONY/images/grid-12/gowr.jpg" class="img-grid" alt="">
+              <figcaption>God of War: Ragnarok</figcaption>
+            </a>
+          </div>
+          <div>
+            <a href="">
+              <img src="/SONY/images/grid-12/suicidesquad.jpg" class="img-grid" alt="">
+              <figcaption>Suicide Squad: Kill the Justice League</figcaption>
+            </a>
+          </div>
+          <div>
+            <a href="">
+              <img src="/SONY/images/grid-12/tlou2.jpg" class="img-grid" alt="">
+              <figcaption>The Last of Us Part I</figcaption>
+            </a>
+          </div>
+        </div>
+      </li>
+
+    </ul>
+  </section>
+  <section>
+    <ul class="slider-4">
+      <li class="slides-4">
+        <div class="grid-4">
+          <div>
+            <div>
+              <img src="/SONY/images/grid-12/uncharted.jpg" class="grid-4-img">
+              <p>Uncharted Legacy of Thieves Collection</p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <img src="/SONY/images/grid-12/thequarry.jpg" class="grid-4-img">
+              <p>The Quarry</p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <img src="/SONY/images/grid-12/sifu2.jpg" class="grid-4-img">
+              <p>Sifu</p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <img src="/SONY/images/grid-12/dyinglight.jpg" class="grid-4-img">
+              <p>Dying Light 2 Stay Human</p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="slides-4">
+        <div class="grid-4">
+          <div>
+            <div>
+              <img src="/SONY/images/grid-12/lego.jpg" class="grid-4-img">
+              <p>LEGO Star Wars: The Skywalker Saga</p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <img src="/SONY/images/grid-12/ghostwire.jpg" class="grid-4-img">
+              <p>Ghostwire: Tokio</p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <img src="/SONY/images/grid-12/grandturismo7.jpg" class="grid-4-img">
+              <p>Gran Turismo 7</p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <img src="/SONY/images/grid-12/deathloop.jpg" class="grid-4-img">
+              <p>Death Loop</p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="slides-4">
+        <div class="grid-4">
+          <div>
+            <div>
+              <img src="/SONY/images/grid-12/wonderlands.jpg" class="grid-4-img">
+              <p>Tiny Tina's Wonderlands</p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <img src="/SONY/images/grid-12/stray.jpg" class="grid-4-img">
+              <p>Stray</p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <img src="/SONY/images/grid-12/hfd.jpg " class="grid-4-img">
+              <p>Horizon Forbidden West</p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <img src="/SONY/images/grid-12/eldenring.jpg" class="grid-4-img">
+              <p>Elden Ring</p>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <section>
+    <ul class="slider-4">
+      <li class="slides-4">
+        <div class="grid-4">
+          <div>
+            <div>
+              <img src="/SONY/images/grid-12/hogwarts.jpg" class="grid-4-img">
+              <p>Hogwarts</p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <img src="/SONY/images/grid-12/fifa.jpg" class="grid-4-img">
+              <p>EA SPORTS FIFA 23</p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <img src="/SONY/images/grid-12/forspoken.jpg " class="grid-4-img">
+              <p>Forspoken</p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <img src="/SONY/images/grid-12/cod.jpg" class="grid-4-img">
+              <p>Call of Duty: Modern Warfare II/p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="slides-4">
+        <div class="grid-4">
+          <div>
+            <div>
+              <img src="/SONY/images/grid-12/thelittle.jpg" class="grid-4-img">
+              <p>Little Devil Inside</p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <img src="/SONY/images/grid-12/suicidesquad.jpg" class="grid-4-img">
+              <p>Suicide Squad: Kill the Justice League</p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <img src="/SONY/images/grid-12/madden.jpg " class="grid-4-img">
+              <p>Madden 23</p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <img src="/SONY/images/grid-12/callisto.jpg" class="grid-4-img">
+              <p>The Callisto Project</p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="slides-4">
+        <div class="grid-4">
+          <div>
+            <div>
+              <img src="/SONY/images/grid-12/saint row.jpg" class="grid-4-img">
+              <p>Saints Row</p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <img src="/SONY/images/grid-12/gowr.jpg" class="grid-4-img">
+              <p>God of War: Ragnarok</p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <img src="/SONY/images/grid-12/tlou2.jpg " class="grid-4-img">
+              <p>The Last of Us: Part I</p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <img src="/SONY/images/grid-12/gotham.jpg" class="grid-4-img">
+              <p>Gotham Knights</p>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <section>
+    <div class="ps4">
+      <div class="ps4-title-container">
+        <div class="ps4-title-container-2">
+          <h2 class="ps4-title">Explore PlayStation® 4</h2>
+          <p class="ps4-subtitle"> Incredible games, non-stop entertainment. There's never been a better time to enjoy
+            PS4.</p>
+        </div>
+      </div>
+      <div class="ps4-img">
+        <div class="ps4-img-container">
+          <div class="ps4-img-container-2">
+            <div class="ps4-muestras">
+              <div>
+                <a href="">
+                  <img src="/SONY/images/others/ps4-slim.jpg" class="ps4-img-products">
+                </a>
+              </div>
+              <div class="ps4-container-text">
+                <h2 class="ps4-text">PlayStation 4</h2>
+                <p class="ps4-subtext">Incredible games lives on PS4, with 1Tb storage.</p>
+              </div>
+              <div class="ps4-button-container">
+                <div class="ps4-button-container-border">
+                  <button class="ps4-button">Learn more</button>
+                </div>
+              </div>
+            </div>
+            <div class="ps4-muestras">
+              <div>
+                <a href="">
+                  <img src="/SONY/images/others/vr.jpg" class="ps4-img-products">
+                </a>
+              </div>
+              <div class="ps4-container-text">
+                <h2 class="ps4-text">PlayStation VR</h2>
+                <p class="ps4-subtext">Over 500 games and experiences and counting. See them all.</p>
+              </div>
+              <div class="ps4-button-container">
+                <div class="ps4-button-container-border">
+                  <button class="ps4-button">Learn more</button>
+                </div>
+              </div>
+            </div>
+            <div class="ps4-muestras">
+              <div>
+                <a href="">
+                  <img src="/SONY/images/others/ps4-controller.jpg" class="ps4-img-products">
+                </a>
+              </div>
+              <div class="ps4-container-text">
+                <h2 class="ps4-text">Accesories</h2>
+                <p class="ps4-subtext">Enhace your PS4 eperience with a range of official accessories.</p>
+              </div>
+              <div class="ps4-button-container">
+                <div class="ps4-button-container-border">
+                  <button class="ps4-button">Learn more</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="ps4-title-container slider-4-title">
+      <div class="ps4-title-container-2">
+        <h2 class="ps4title">Explore PlayStation 4</h2>
+        <p class="ps4-subtitle"> Incredible games, non-stop entertainment. There's never been a better time to enjoy
+          PS4.</p>
+      </div>
+    </div>
+    <ul class="slider-5">
+      <li class="slides-5">
+        <div class="ps4-muestras">
+          <div>
+            <a href="">
+              <img src="/SONY/images/others/ps4-slim.jpg" class="ps4-img-products">
+            </a>
+          </div>
+          <div class="ps4-container-text">
+            <h2 class="ps4-text">PlayStation 4</h2>
+            <p class="ps4-subtext">Incredible games lives on PS4, with 1Tb storage.</p>
+          </div>
+          <div class="ps4-button-container">
+            <div class="ps4-button-conta-borderiner">
+              <button class="ps4-button">Learn more</button>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="slides-5">
+        <div class="ps4-muestras">
+          <div>
+            <a href="">
+              <img src="/SONY/images/others/vr.jpg" class="ps4-img-products">
+            </a>
+          </div>
+          <div class="ps4-container-text">
+            <h2 class="ps4-text">PlayStation VR</h2>
+            <p class="ps4-subtext">Over 500 games and experiences and counting. See them all.</p>
+          </div>
+          <div class="ps4-button-container">
+            <div class="ps4-button-conta-borderiner">
+              <button class="ps4-button">Learn more</button>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="slides-5">
+        <div class="ps4-muestras">
+          <div>
+            <a href="">
+              <img src="/SONY/images/others/ps4-controller.jpg" class="ps4-img-products">
+            </a>
+          </div>
+          <div class="ps4-container-text">
+            <h2 class="ps4-text">Accesories</h2>
+            <p class="ps4-subtext">Enhace your PS4 eperience with a range of official accessories.</p>
+          </div>
+          <div class="ps4-button-container">
+            <div class="ps4-button-conta-borderiner">
+              <button class="ps4-button">Learn more</button>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <div class="pss">
+      <div class="pss-grid">
+        <div class="pss-store">
+          <div class="pss-content">
+            <div class="pss-content-container">
+              <img src="/SONY/images/PSStore_LOGO.jpg" class="pss-content-img">
+            </div>
+            <div class="pss-content-title">
+              <h2 class="pss-title">New savings on PlayStation Store</h2>
+            </div>
+            <p class="pss-subtitle"> Explore the latest discounts and seasonal sales on great games and add-ons for PS5
+              and PS4.</p>
+          </div>
+          <div class="pss-button-container">
+            <div class="pss-button-container-border">
+              <button class="pss-button">See all deals</button>
+            </div>
+          </div>
+        </div>
+        <div class="pss-container-discount">
+          <img src="/SONY/images/others/discount.jpg" class="pss-img">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="ps-shop">
+      <div class="ps-shop-first-grid">
+        <div class="ps-shop-header">
+          <div class="ps-shop-symbol-tshirt">
+            <img src="/SONY/images/symbol-tshirt.jpg" class="symbol-tshirt">
+          </div>
+          <div class="ps-shop-container-content">
+            <div>
+              <h2 class="ps-shop-header-title">PlayStation Official Licenced Apparel and Merchandise</h2>
+            </div>
+            <div>
+              <p class="ps-shop-header-subtitle">Browse the PlayStation Gear store for official accessories,
+                collectibles, clothing and more</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ps-shop-second-grid">
+        <div class="ps-shop-second-grid-container" id="primero">
+          <div class="ps-shop-container-img">
+            <img src="/SONY/images/clothes/hoodie.jpg" class="shop-img">
+          </div>
+          <div class="ps-shop-product-container">
+            <p class="ps-shop-product">Playstation Heritage Zip Up Hoodie</p>
+          </div>
+          <div class="ps-shop-container-button">
+            <div class="ps-shop-container-button-border">
+              <button class="ps-shop-button">Shop now</button>
+            </div>
+          </div>
+        </div>
+        <div class="ps-shop-second-grid-container" id="segundo">
+          <div class="ps-shop-container-img">
+            <img src="/SONY/images/clothes//t-shirt.jpg" class="shop-img">
+          </div>
+          <div class="ps-shop-product-container">
+            <p class="ps-shop-product">Playstation Heritage Logo Tee</p>
+          </div>
+          <div class="ps-shop-container-button">
+            <div class="ps-shop-container-button-border">
+              <button class="ps-shop-button">Shop now</button>
+            </div>
+          </div>
+        </div>
+        <div class="ps-shop-second-grid-container" id="tercero">
+          <div class="ps-shop-container-img">
+            <img src="/SONY/images/clothes//cap.jpg" class="shop-img">
+          </div>
+          <div class="ps-shop-product-container">
+            <p class="ps-shop-product">Playstation Heritage 47 Brand Hat</p>
+          </div>
+          <div class="ps-shop-container-button">
+            <div class="ps-shop-container-button-border">
+              <button class="ps-shop-button">Shop now</button>
+            </div>
+          </div>
+        </div>
+        <div class="ps-shop-second-grid-container" id="cuarto">
+          <div class="ps-shop-container-img">
+            <img src="/SONY/images/clothes//mug.jpg" class="shop-img">
+          </div>
+          <div class="ps-shop-product-container">
+            <p class="ps-shop-product">Playstation Heritage Mug</p>
+          </div>
+          <div class="ps-shop-container-button">
+            <div class="ps-shop-container-button-border">
+              <button class="ps-shop-button">Shop now</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="ps-shop-third-grid">
+        <div class="ps-shop-third-grid-container">
+          <div class="ps-shop-third-grid-button-container">
+            <button class="ps-shop-third-grid-button">Shop the Collection</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="news-title-container">
+      <h2 class="news-title">The latest news from PlayStation Blog </h2>
+    </div>
+    <div class="carousel-news">
+      <ul class="slider-6 news-blog">
+        <li>
+          <a
+            href="https://blog.playstation.com/2022/08/16/call-of-duty-modern-warfare-ii-campaign-early-access-mp-beta-details/">
+            <div>
+              <div>
+                <img src="/SONY/images/news/cod-beta.jpg" class="img-news">
+              </div>
+              <div class="slide-news-container">
+                <h4 class="slide-news-title">Call of Duty: Modern Warfare II Campaign Early Access & MP Beta details
+                </h4>
+                <p class="slide-news-content">Attention PlayStation Players! Join Task Force 141 up to seven days before
+                  the official launch of Call of Duty: Modern Warfare II through a digital pre-order of the game on
+                  PlayStation.
+                  Players who preorder a digital edition of Modern Warfare II will gain early access to the game’s
+                  Campaign mode* along with other rewards. Starting October 20, enjoy a full week to focus on the
+                  single-player, globe-trotting operation before the full game launches on October 28.</p>
+                <div>
+                  <div>
+                    <img src="/SONY/images/news/cod-40.webp" class="news-editor-img">
+                  </div>
+                  <div>
+                    <p class="news-editor">Daniel Noel</p>
+                    <p class="news-editor">Writer, Activision</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </a>
         </li>
-        <li class="parts">
-          <a href="#second">
-            <h1 class="parts-text">Projects</h1>
+        <li>
+          <a href="https://blog.playstation.com/2022/08/18/cursed-to-golf-is-out-today-on-ps5-and-ps4/">
+            <div>
+              <div><img src="/SONY/images/news/cursed-golf.jpg" class="img-news">
+              </div>
+              <div class="slide-news-container">
+                <h4 class="slide-news-title">Cursed to Golf is out today on PS5 and PS4</h4>
+                <p class="slide-news-content">The time has finally come, Cursed to Golf is out TODAY on PS5 and PS4.
+                  It’s been 2 years of hard work and passion to get here. The team and I are immensely proud of our
+                  game, and we hope you all take our virtual trip to the afterlife to live out your days in Golf
+                  Purgatory. Last time I was here I spoke about the general rules of supernatural golf, the incredible
+                  power of the Ace Cards and some of the shenanigans you can get down to in between holes. Today, let’s
+                  get down and dirty with some of the more perilous elements of Cursed to Golf. After all, if you want
+                  to make it out of Golf Purgatory, it pays to take some risks.</p>
+                <div>
+                  <div>
+                    <img src="/SONY/images/news/cursed-golf-40.webp" class="news-editor-img">
+                  </div>
+                  <div>
+                    <p class="news-editor">Liam Edwards</p>
+                    <p class="news-editor">Game Director, Cursed to Golf at Chuhai Labs</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </a>
         </li>
-        <li class="parts">
-          <a href="#third">
-            <h1 class="parts-text">Contact</h1>
+        <li>
+          <a href="https://blog.playstation.com/2022/08/16/games-under-promotion-comes-to-playstation-store-3/">
+            <div>
+              <div><img src="/SONY/images/news/discount.jpg" class="img-news">
+              </div>
+              <div class="slide-news-container">
+                <h4 class="slide-news-title">Enjoy discounts on Star Wars Jedi: Fallen Order - Deluxe Edition, The Crew
+                  2 Gold Edition, Diablo III: Eternal Collection and more. </h4>
+                <p class="slide-news-content">PlayStation Store welcomes the Games Under promotion, starting Wednesday
+                  August 17. Until Tuesday August 30* enjoy discounts on the likes of Star Wars Jedi: Fallen Order –
+                  Deluxe Edition, The Crew 2 Gold Edition, Diablo III: Eternal Collection and many more titles. </p>
+                <div>
+                  <div>
+                    <img src="/SONY/images/news/discount-40.webp" class="news-editor-img">
+                  </div>
+                  <div>
+                    <p class="news-editor">Peter Boda</p>
+                    <p class="news-editor">Associate Digital Promotions Manager</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://blog.playstation.com/2022/08/17/blue-hair-and-pronouns-in-i-was-a-teenage-exocolonist-out-august-25/">
+            <div>
+              <div>
+                <img src="/SONY/images/news/exocolonist.jpg" class="img-news">
+              </div>
+              <div class="slide-news-container">
+                <h4 class="slide-news-title">Crafting a fictional world by representing the best parts of this one.</h4>
+                <p class="slide-news-content">Speculative fiction often turns the lens back on the reader, making the
+                  previously unknown become knowable by turning it into story.
+                  It’s long been used as a vehicle for representation, from Star Trek exploring new frontiers of
+                  romance, to Octavia Butler positioning a Black woman at the forefront of humanity’s escape to space in
+                  Parable of the Sower, to dystopian YA like The Hunger Games tapping into every young woman’s desire to
+                  change the world by burning it down.</p>
+                <div>
+                  <div>
+                    <img src="/SONY/images/news/exocolonist-40" class="news-editor-img">
+                  </div>
+                  <div>
+                    <p class="news-editor">Lindsay Ishihiro</p>
+                    <p class="news-editor">Writer, I Was a Teenage Exocolonist</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://blog.playstation.com/2022/08/18/get-the-lowdown-on-fallout-76s-expeditions-before-entering-the-pitt/">
+            <div>
+              <div>
+                <img src="/SONY/images/news/fallout76.jpg" class="img-news">
+              </div>
+              <div class="slide-news-container">
+                <h4 class="slide-news-title">Fallout 76 players are about to venture into new territory. The Pitt!</h4>
+                <p class="slide-news-content">Built on what’s left of Pre-War Pittsburgh, The Pitt is a rough place. The
+                  local Union faction is beset on all sides as bloodthirsty Raiders and once-human Trog beasts close in,
+                  so grab your friends, pack your best gear and steel yourself…it’s time to go on an Expedition.</p>
+                <div>
+                  <div>
+                    <img src="/SONY/images/news/fallout76-40.jpg" class="news-editor-img">
+                  </div>
+                  <div>
+                    <p class="news-editor">Parker Wilhelm</p>
+                    <p class="news-editor">Marketing Content Manager, Bethesda Softworks</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://blog.playstation.com/2022/08/18/meet-the-four-legged-cast-of-thems-fightin-herds-out-october-18/">
+            <div>
+              <div>
+                <img src="/SONY/images/news/fighting-nerds.jpg" class="img-news">
+              </div>
+              <div class="slide-news-container">
+                <h4 class="slide-news-title"> Meet the four-legged cast of Them’s Fightin’ Herds, out October 18</h4>
+                <p class="slide-news-content">Them’s Fightin’ Herds (more lovingly called “TFH”) is a 2D fighting game
+                  developed by Mane6, a small team working hard to create an experience both newcomers and veterans of
+                  the genre will enjoy together. On October 18, players from around the world can finally join the
+                  stampede and play the game on PlayStation 4 and PlayStation 5 for the first time.</p>
+                <div>
+                  <div>
+                    <img src="/SONY/images/news/fighting-nerds-40.webp" class="news-editor-img">
+                  </div>
+                  <div>
+                    <p class="news-editor">Shawn Cotter</p>
+                    <p class="news-editor">Associate Brand Manager, Modus Games</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://blog.playstation.com/2022/08/18/call-of-duty-vanguard-and-call-of-duty-warzone-last-stand-launches-august-24/">
+            <div>
+              <div>
+                <img src="/SONY/images/news/last-stand.jpg" class="img-news">
+              </div>
+              <div class="slide-news-container">
+                <h4 class="slide-news-title">Call of Duty: Vanguard and Call of Duty: Warzone: Last Stand launches
+                  August 24</h4>
+                <p class="slide-news-content">Legends never die. Last Stand, the fifth and final season of Call of Duty:
+                  Vanguard and Call of Duty: Warzone, gathers Call of Duty’s most infamous villains for an epic finale.
+                  In Warzone, Caldera’s Peak rumbles; in Multiplayer, deploy to two new fast-paced maps, Beheaded and
+                  Fortress; in Zombies, continue the Dark Aether saga in Vanguard’s round-based finale, “The Archon.”
+                </p>
+                <div>
+                  <div>
+                    <img src="/SONY/images/news/cod-40.webp" class="news-editor-img">
+                  </div>
+                  <div>
+                    <p class="news-editor">Daniel Noel</p>
+                    <p class="news-editor">Writer, Activision</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://blog.playstation.com/2022/08/18/blazing-chrome-creator-returns-with-vengeful-guardian-moonrider/">
+            <div>
+              <div>
+                <img src="/SONY/images/news/moon-rider.jpg" class="img-news">
+              </div>
+              <div class="slide-news-container">
+                <h4 class="slide-news-title">Blazing Chrome creator returns with Vengeful Guardian Moonrider</h4>
+                <p class="slide-news-content">Hi everybody, I’m Danilo from JoyMasher and I’m super excited to tell you
+                  more about Vengeful Guardian Moonrider, our next big game! And believe me, it’s quite a ride.</p>
+                <div>
+                  <div>
+                    <img src="/SONY/images/news/moon-rider-40.webp" class="news-editor-img">
+                  </div>
+                  <div>
+                    <p class="news-editor">Danilo Diaz</p>
+                    <p class="news-editor">Art Director, JoyMasher</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://blog.playstation.com/2022/08/18/only-the-strong-survive-how-amicia-and-hugos-abilities-will-change-in-a-plague-tale-requiem/">
+            <div>
+              <div>
+                <img src="/SONY/images/news/plague-tale.jpg" class="img-news">
+              </div>
+              <div class="slide-news-container">
+                <h4 class="slide-news-title">Only the strong survive — how Amicia and Hugo’s abilities will change in A
+                  Plague Tale: Requiem</h4>
+                <p class="slide-news-content">Hi everyone! Kevin Choteau here, Game Director at Asobo and very excited
+                  about everything we’ve been working on to bring you A Plague Tale: Requiem! The game releases on
+                  October 18 on PlayStation 5, three years after its prequel, Innocence. So time has passed, and so has
+                  it for our two heroes, Amicia and Hugo, who we’ll meet in Requiem six months after we said goodbye to
+                  them in Innocence. They’re both children, subject to constant evolution, so you can expect them to
+                  have changed! And that’ll impact how you play with them… Let’s look a bit into it right now.</p>
+                <div>
+                  <div>
+                    <img src="/SONY/images/news/plague-tale-40.webp" class="news-editor-img">
+                  </div>
+                  <div>
+                    <p class="news-editor">Kevin Choteau</p>
+                    <p class="news-editor">Game Director at Asobo Studio</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://blog.playstation.com/2022/08/16/a-deeper-look-at-the-gameplay-and-soundtrack-of-serial-cleaners/">
+            <div>
+              <div>
+                <img src="/SONY/images/news/serial-cleaners.jpg" class="img-news">
+              </div>
+              <div class="slide-news-container">
+                <h4 class="slide-news-title">A deeper look at the gameplay and soundtrack of Serial Cleaners</h4>
+                <p class="slide-news-content">Zip up your windbreaker and hop on your station wagon - it’s time to cover
+                  up crimes to the rhythm of the many music genres of the 1990s, out September 22.</p>
+                <div>
+                  <div>
+                    <img src="/SONY/images/news/serial-cleaners-40.webp" class="news-editor-img">
+                  </div>
+                  <div>
+                    <p class="news-editor">Mateusz Lechowski</p>
+                    <p class="news-editor">Narrative Designer, Draw Distance</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </a>
         </li>
       </ul>
-    </nav>
-  </header>
+    </div>
+  </section>
   <section>
-    <div class="first-section" id="first">
-      <div class="profile-avatar">
-        <div class="profile">
-          <h1 class="name">Hi! <br />I'm Joaquin Romero</h1>
-          <h2 class="description">
-            A FrontEnd Developer currently based in Dortmund, Germany
-          </h2>
-        </div>
-        <div class="avatar">
-          <div class="avatar-picture">
-            <img src="/Portfolio/images/avatar.png " alt="avatar" class="img-avatar" />
-          </div>
-          <div class="skills-container">
-            <h2 class="skills-title">Currently using</h2>
-            <div class="skills">
-              <img src="/Portfolio/images/html.png " alt="html" class="img-avatar2 item-a" />
-              <img src="/Portfolio/images/css.png " alt="css" class="img-avatar2 item-b" />
-              <img src="/Portfolio/images/js.png " alt="js" class="img-avatar2 item-c" />
-              <img src="/Portfolio/images/vue.png " alt="vue" class="img-avatar2 item-d" />
-              <img src="/Portfolio/images/vsc.png " alt="vsc" class="img-avatar2 item-e" />
-              <img src="/Portfolio/images/node.png " alt="node" class="img-avatar2 item-f" />
-              <img src="/Portfolio/images/github.png " alt="github" class="img-avatar2 item-g" />
-              <img src="/Portfolio/images/netlify.png " alt="netlify" class="img-avatar2 item-h" />
+    <div class="social">
+      <div>
+        <h2 class="social-title">Follow us on social media</h2>
+        <div class="social-grid">
+          <div class="social-img">
+            <div class="social-img-grid">
+              <div> <img src="/SONY/images/social-media/twitt.jpg" class="img-social"></div>
+              <div> <img src="/SONY/images/social-media//fb.jpg" class="img-social"></div>
+              <div> <img src="/SONY/images/social-media//int.jpg" class="img-social"></div>
+              <div> <img src="/SONY/images/social-media//yt.jpg" class="img-social"></div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <section>
-    <div class="second-section" id="second">
-      <div class="third-part" id="left">
-        <div class="presentation">
-          <img src="/Portfolio/images/1st-web.png" class="presentation-img" alt="first-web" />
-        </div>
-        <div class="material">
-          <div class="material-header">
-            <div class="title">Playstation Web Clone</div>
-          </div>
-          <div class="material-content">
-            <div class="material-content-text">
-              Sony's web cloned using Html, Css and Javascript. <br>
-              Includes responsive design,links and slides (Swiperjs.com)
-            </div>
-          </div>
-          <a href="https://sony-joa.netlify.app/" target="_blank" class="webs-link"><button
-              class="button-link">Visit <img src="/Portfolio/images/arrow-link.png" alt="arrow"
-                class="arrow-link"></button></a>
-        </div>
-      </div>
-      <div class="third-part" id="center">
-        <div class="material">
-          <div class="material-header">
-            <div class="title">Music Web App</div>
-          </div>
-          <div class="material-content">
-            <div class="material-content-text">
-              Music's album player using Deezer's Api, built based on Vue.js
-              Random selection between thousands of albums where you can discover new genres, artists and tracks
-            </div>
-          </div>
-          <a href=" https://music-app-joa.netlify.app/" target="_blank" class="webs-link"><button
-              class="button-link">Visit <img src="/Portfolio/images/arrow-link.png" alt="arrow"
-                class="arrow-link"></button></a>
-        </div>
-        <div class="presentation">
-          <img src="/Portfolio/images/2nd-web.png" class="presentation-img" alt="second-web" />
-        </div>
-      </div>
-      <div class="third-part" id="right">
-        <div class="presentation">
-          <img src="/Portfolio/images/3rd-web.png" class="presentation-img" alt="third-web" />
-        </div>
-        <div class="material">
-          <div class="material-header">
-            <div class="title">Movies and Tv Shows</div>
-          </div>
-          <div class="material-content">
-            <div class="material-content-text"> Movies and Tv Shows' web using TMDB's API, built based on Vue.js
-              An e-shop where you can see the trending films and the tv shows currently on air.
-              You have the posibility to choose the quality of your purchase
-            </div>
-          </div>
-          <a href="https://movie-app-joa.netlify.app/" target="_blank" class="webs-link"> <button
-              class="button-link">Visit <img src="/Portfolio/images/arrow-link.png" alt="arrow"
-                class="arrow-link"></button></a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section>
-    <div class="third-section" id="third">
-      <div class="side-email-1">
-        <a href="https://www.linkedin.com/in/joaquin-romero-6389a9166/" target="_blank"><img
-            src="/Portfolio/images/linked.png" class="img-social" alt="social" /></a>
-        <a href="https://github.com/joro-afk" target="_blank"> <img src="/Portfolio/images/github.png"
-            class="img-social" alt="social" /></a>
-      </div>
 
-
-
-      <div class="contacto">
-        <form id="contact-form">
-          <div class="contact-form-title">
-            <h1 class="contact100-form-title">Get in Touch</h1>
-          </div>
-          <div class="contact-area">
-            <input type="hidden" name="contact_number" />
-            <label>Name</label>
-            <input type="text" name="user_name" placeholder="Name" />
-            <label>Email</label>
-            <input type="email" name="user_email" placeholder="Email" />
-            <label>Message</label>
-            <textarea name="message" placeholder="Message"></textarea>
-          </div>
-          <div class="button-area">
-            <button type="submit" value="Send" class="button-contact" /> Send</button>
-          </div>
-        </form>
-      </div>
-
-
-
-    </div>
-  </section>
   <script src="index.js"></script>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-  <script>
-    (function () {
-      emailjs.init("V78tPh84ZycTqz__q");
-    })();
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script text="type/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script type="text/javascript">
+
+    $('.slider-1-767w').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+      fade: true,
+      asNavFor: '.slider-first-767w'
+    });
+    $('.slider-first-767w').slick({
+      asNavFor: '.slider-1-767w',
+
+      arrows: false,
+      focusOnSelect: true,
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 5000,
+    });
+
+    $('.slider-2-767w').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+      fade: true,
+      asNavFor: '.slider-second-767w'
+    });
+
+    $('.slider-second-767w').slick({
+      asNavFor: '.slider-2-767w',
+      centerMode: true,
+      focusOnSelect: true,
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      arrows: false,
+    });
+
+    $('.slider-3').slick({
+
+    });
+
+    $('.slider-4').slick({
+      centerMode: true,
+      slidesToShow: 1,
+      dots: true,
+      arrows: false,
+      focusOnSelect: true,
+
+    });
+    $('.slider-5').slick({
+      centerMode: true,
+      focusOnSelect: true,
+      slidesToShow: 1,
+      arrows: false,
+      dots: true,
+    });
+
+    $('.slider-6').slick({
+      slidesToScroll: 3,
+      dots: true,
+      centerMode: true,
+      centerPadding: '60px',
+      slidesToShow: 3.1,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 2.1
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 1.1
+          }
+        }
+      ]
+    });
   </script>
   <footer>
-    <h1>Designed and Built by <span>Joaquin Romero</span></h1>
+    <div class="footer-1st"> Playstation Logo</div>
+    <div class="footer-2nd">
+      <div>
+        <div class="footer-li-title">About</div>
+        <div class="footer-li-container">
+          <li class="footer-li"><a href="">About SIE </a></li>
+          <li class="footer-li"><a href="">Careers</a></li>
+          <li class="footer-li"><a href="">Playstation Studios</a></li>
+          <li class="footer-li"><a href="">Corporate</a></li>
+        </div>
+      </div>
+      <div>
+        <div class="footer-li-title">Products</div>
+        <div class="footer-li-container">
+          <li class="footer-li"><a href="">PS5</a></li>
+          <li class="footer-li"><a href="">PS4</a></li>
+          <li class="footer-li"><a href="">PS VR2</a></li>
+          <li class="footer-li"><a href="">PS Plus</a></li>
+          <li class="footer-li"><a href="">Accessories</a></li>
+          <li class="footer-li"><a href="">Games</a></li>
+        </div>
+      </div>
+      <div>
+        <div class="footer-li-title">Values</div>
+        <div class="footer-li-container">
+          <li class="footer-li"><a href="">Environment</a></li>
+          <li class="footer-li"><a href="">Accessibility</a></li>
+          <li class="footer-li"><a href="">Online Safety</a></li>
+          <li class="footer-li"><a href="">Diversity, equity & inclusion</a></li>
+        </div>
+      </div>
+      <div>
+        <div class="footer-li-title">Support</div>
+        <div class="footer-li-container">
+          <li class="footer-li"><a href="">Support hub</a></li>
+          <li class="footer-li"><a href="">PlayStation hub</a></li>
+          <li class="footer-li"><a href="">PlayStation Safety</a></li>
+          <li class="footer-li"><a href="">PSN Status</a></li>
+          <li class="footer-li"><a href="">PlayStation Repairs</a></li>
+          <li class="footer-li"><a href="">Password reset</a></li>
+          <li class="footer-li"><a href="">Manuals</a></li>
+        </div>
+      </div>
+      <div>
+        <div class="footer-li-title">Resources</div>
+        <div class="footer-li-container">
+          <li class="footer-li"><a href="">PSN terms of service</a></li>
+          <li class="footer-li"><a href="">PS Store cancellation policy</a></li>
+          <li class="footer-li"><a href="">Age ratings</a></li>
+          <li class="footer-li"><a href="">Health warning</a></li>
+          <li class="footer-li"><a href="">Developers</a></li>
+          <li class="footer-li"><a href="">Glossary</a></li>
+        </div>
+      </div>
+      <div>
+        <div class="footer-li-title">Connect</div>
+        <div class="footer-li-container">
+          <li class="footer-li"><a href="">
+              <div>Symbols</div>
+            </a></li>
+          <li class="footer-li"><a href="">iOS app</a></li>
+          <li class="footer-li"><a href="">Android APP</a></li>
+          <li class="footer-li"><a href="">Join our playtesting program</a></li>
+        </div>
+      </div>
+    </div>
+    <div class="footer-3rd">
+      <div>
+        <div>Sony Interactive Entertainment</div>
+        <div>
+          <div>© 2023 Sony Interactive Entertainment LLC</div>
+          <div>All content, games titles, trade names and/or trade dress, trademarks, artwork and associated imagery
+            are
+            trademarks and/or copyright material of their respective owners. All rights reserved. More info</div>
+        </div>
+      </div>
+      <div>esbr</div>
+    </div>
+    <div class="footer-4th">
+      <div class="language-container">
+        <img src="/Sony/images/world-icon.png" alt="" class="world-icon-img">
+        United States
+      </div> 
+      <div class="footer-4th-sub">
+        <li class="footer-li">Legal</li>
+        <li class="footer-li">Privacy policy</li>
+        <li class="footer-li">Website terms of use</li>
+        <li class="footer-li">Site Map</li>
+      </div>
+    </div>
   </footer>
 </body>
 
