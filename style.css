@@ -9,11 +9,11 @@
 }
 
 @font-face {
-    font-family: 'sstroman';
-    src: url('sstrg-webfont.woff2') format('woff2'),
-         url('sstrg-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'sstroman';
+  src: url('sstrg-webfont.woff2') format('woff2'),
+    url('sstrg-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 
 }
 
@@ -1063,15 +1063,10 @@ li:not(.active)>.dropdown-content {
   transition: none;
   padding: 0 22.5px;
   display: flex !important;
+  flex-direction: column;
   justify-content: center !important;
   height: min-content;
 }
-
-/* .slide-2-img-product {
-  width: 100%;
-  height: calc((100vw - 45px) / 1.25);
-  max-height: 577px;
-} */
 
 .slider-second-767w {
   height: calc(((100vw - 37px) / 2) * 0.667);
@@ -1141,6 +1136,11 @@ li:not(.active)>.dropdown-content {
 
 .slider-second-767w-mini {
   padding: 1rem 1rem 0 1rem;
+}
+
+.slider-second-767w-mini>img {
+  height: auto;
+  width: 100%;
 }
 
 .this-month {
@@ -1631,8 +1631,14 @@ li:not(.active)>.dropdown-content {
 }
 
 .new-releases-container-img {
-  width: calc((73.33px * 5) + (4 * 2.5rem));
+  width: 100%;
   animation: new-releases-container-img 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@media only screen and (min-width: 768px) {
+  .new-releases-container-img {
+    width: calc((73.33px * 5) + (4 * 2.5rem));
+  }
 }
 
 @keyframes new-releases-container-img {
@@ -1648,10 +1654,10 @@ li:not(.active)>.dropdown-content {
 }
 
 .new-releases-img {
-  width: 93%;
+  width: 275px;
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (min-width: 768px) {
   .new-releases-img {
     width: calc((70px * 4) + (3 * 2.5rem));
   }
@@ -1670,8 +1676,8 @@ li:not(.active)>.dropdown-content {
 }
 
 .new-releases-text {
-  width: calc((73.33px * 5) + (4 * 2.5rem));
-  margin-block-start: 1rem;
+  width: calc(100% - 2.6rem);
+  margin: 1rem 1.3rem 0 1.3rem;
   animation: new-releases-text 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
@@ -1686,6 +1692,21 @@ li:not(.active)>.dropdown-content {
     opacity: 1;
   }
 }
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .new-releases-text {
+    width: calc(100% - var(--padding768));
+    margin: 0 var(--padding768);
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .new-releases-text {
+    width: calc((73.33px * 5) + (4 * 2.5rem));
+  }
+}
+
 
 .new-releases-text-2 {
   margin-block-end: 2rem;
@@ -1722,6 +1743,13 @@ li:not(.active)>.dropdown-content {
   border-radius: 2rem;
   border: solid 2px transparent;
   width: fit-content;
+}
+
+@media only screen and (max-width: 1023px) {
+  .new-realeases-button-container {
+    width: 100%;
+
+  }
 }
 
 .new-realeases-button-container:hover {
@@ -3528,13 +3556,21 @@ figcaption {
 
 .slide-news-title {
   color: #000;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 400;
   letter-spacing: 0.1px;
   line-height: 1.25em;
-  margin-block-end: 1rem;
+  margin-block-end: .875rem;
   margin-block-start: 0;
 }
+
+@media only screen and (min-width: 1367px) {
+  .slide-news-title {
+    font-size: 18px;
+    margin-block-end: 1.125rem;
+  }
+}
+
 
 @media only screen and (min-width: 1367px) {
   .slide-news-title {
@@ -3557,7 +3593,7 @@ figcaption {
   font-weight: 400;
   letter-spacing: 0.1px;
   line-height: 1.5em;
-  margin-block-end: 1.5rem !important;
+  margin-block-end: 1.3125rem;
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
@@ -3741,14 +3777,49 @@ footer {
 }
 
 .footer-4th {
-  height: 42px;
+  height: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-4th {
+    height: 42px;
+  }
+}
+
+
+
+@media only screen and (max-width: 767px) {
+  .footer-4th {
+    flex-direction: column;
+  }
 }
 
 .footer-1st,
 .footer-2nd,
 .footer-3rd,
 .footer-4th {
-  margin: 0 2.625rem;
+  margin: 0 1.3125rem;
+}
+
+
+@media only screen and (min-width: 360px) {
+
+  .footer-1st,
+  .footer-2nd,
+  .footer-3rd,
+  .footer-4th {
+    margin: 0 1.75rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+  .footer-1st,
+  .footer-2nd,
+  .footer-3rd,
+  .footer-4th {
+    margin: 0 2.625rem;
+  }
 }
 
 
@@ -3843,9 +3914,17 @@ footer {
 .language-container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+}
 
+@media only screen and (min-width: 768px) {
+  .language-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .language-container>p {
