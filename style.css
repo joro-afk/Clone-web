@@ -3751,6 +3751,11 @@ footer {
 }
 
 
+.panel{
+  display: none;
+}
+
+
 .footer-3rd {
   border-bottom: .5px solid #0072ce;
   line-height: 1.5;
