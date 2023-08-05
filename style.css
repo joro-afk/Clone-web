@@ -840,7 +840,6 @@ li:not(.active)>.dropdown-content {
 
 .slider-2-container-mini {
   display: flex;
-  justify-content: space-evenly;
 }
 
 .slider-2-container-mini-content {
@@ -848,7 +847,6 @@ li:not(.active)>.dropdown-content {
   flex-direction: column;
   width: calc(100% / 6);
   opacity: 0.5;
-  height: min-content;
 }
 
 .slider-2-container-mini-content:hover {
@@ -876,6 +874,9 @@ li:not(.active)>.dropdown-content {
   transition: all .25s ease-in-out;
 }
 
+.slide-2-border{
+ height: 100%;
+}
 
 .muestras-slide-2-container {
   padding: 1rem 1rem 0;
@@ -1768,9 +1769,11 @@ li:not(.active)>.dropdown-content {
   margin: 4px;
   border-radius: 2rem;
   border: solid 2px transparent;
+  width: fit-content;
 }
 
 .this-month-button-container:hover {
+
   border: solid 2px #fff;
   border-radius: 2rem;
   position: relative;
@@ -2533,6 +2536,7 @@ li:not(.active)>.dropdown-content {
   font-size: 14px;
   margin-top: 0;
   margin-bottom: 0.5rem;
+  color: #fff;
 }
 
 .slide-news-content-mS4 {
@@ -2543,6 +2547,7 @@ li:not(.active)>.dropdown-content {
   text-overflow: ellipsis;
   font-size: 12px;
   line-height: 1.5;
+  color: #fff;
 }
 
 
@@ -3450,12 +3455,12 @@ li:not(.active)>.dropdown-content {
 }
 
 .back-container-2:hover>div>.img-news {
-  box-shadow: 0.25rem 0.3rem 1rem #494949, -0.25rem 0 0.3rem #494949;
+  box-shadow: 0.25rem 0.3rem 1rem #494949, -0.25rem 0 1rem #494949;
 }
 
 
 .img-news {
-  width: 100%;
+  width: 97%;
   border-radius: 1rem;
   margin-left: 1.5%;
   margin-right: 1.5%;
