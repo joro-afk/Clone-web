@@ -13,10 +13,6 @@ function myFunction() {
   }
 }
 
-function addClass() {
-  let element = document.getElementById("fifth");
-  element.className = element.className === "active" ? "inactive" : "active";
-}
 
 let slideIndex3 = 1;
 
@@ -27,9 +23,7 @@ function currentSlide3(n) {
 function showSlides3(n) {
   let i;
   let slides = document.getElementsByClassName("img-container-2");
-  let dots = document.getElementsByClassName(
-    "slider-2-container-mini-content"
-  );
+  let dots = document.getElementsByClassName("slider-2-container-mini-content");
   if (n > slides.length) {
     slideIndex3 = 1;
   }
