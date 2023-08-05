@@ -67,6 +67,8 @@ a {
   z-index: 999;
 }
 
+
+
 .sticky {
   position: fixed;
   top: 0;
@@ -117,50 +119,82 @@ a {
   list-style-type: none;
 }
 
+@media only screen and (max-width: 699px) {
+  .menu {
+    display: none;
+  }
+}
+
 .menu-content {
   display: flex;
   justify-content: center;
   align-items: center;
   width: auto;
   height: 100%;
-  padding: 0 1.125rem;
+  padding: 0 0 0 5px;
   font-weight: 500;
   text-align: left;
-  font-size: 0.8125rem;
   color: #1f1f1f;
   background-color: transparent;
   border: 0;
   line-height: 21px;
 }
 
-@media only screen and (min-width: 1366px) {
+@media only screen and (min-width: 1600px) {
   .menu-content {
-    font-size: 1rem;
+    padding: 0 1.25rem 0 1.25rem;
   }
 }
 
-@media only screen and (min-width: 1600px) {
-  .menu-content {
-    font-size: 1.125rem;
-  }
-}
 
 .menu-content:hover {
   background: #fff;
 }
 
+.angle {
+  height: .75rem;
+  padding: 0 5px 0 0;
+}
+
 .dropdown {
   color: #000;
   position: relative;
-  display: inline-block;
-  padding: 0 20px 0 5px;
+  display: flex;
+  align-items: self-end;
   letter-spacing: 0.5px;
   text-decoration: none;
 }
 
-.dropdown:hover {
-  display: block;
+.nav-title-text {
+  line-height: initial;
+  margin-inline-end: .25rem;
+  font-weight: 600;
+}
+
+@media only screen and (min-width: 700px) {
+  .nav-title-text {
+    font-size: .75rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .nav-title-text {
+    font-size: .825rem;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .nav-title-text {
+    font-size: 1.125rem;
+  }
+}
+
+.menu-content:hover>.dropdown {
   color: #0072ce;
+}
+
+.menu-content:hover>.dropdown>.angle {
+  filter: invert(28%) sepia(58%) saturate(2389%) hue-rotate(189deg) brightness(98%) contrast(101%);
 }
 
 .dropdown-content {
@@ -224,18 +258,11 @@ li:not(.active)>.dropdown-content {
 }
 
 .button-sign-in {
-  margin: 0 12px 0 0;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.button-sign-in {
   display: block;
-  margin-right: 0.75rem;
+  margin-right: 1rem;
   color: #fff;
-  background-color: #363636;
-  font-weight: 400;
+  background-color: #0070CC;
+  font-weight: 600;
   font-size: 1rem;
   padding: 0.125rem 0.625rem;
   line-height: 1.5;
@@ -273,14 +300,37 @@ li:not(.active)>.dropdown-content {
 }
 
 #searchbutton {
-  border-color: #999;
-  height: 35%;
+  border: 1px solid #dedede;
+  height: 2.375rem;
+  width: 8rem;
   text-align: left;
-  background-image: url("/images/search.svg");
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: 10%;
-  padding: 10px 10px;
+  padding: 0 0 0 10px;
+  font-size: 1.125rem;
+}
+
+@media only screen and (max-width: 1599px) {
+  #searchbutton {
+    display: none;
+  }
+}
+
+.glass-container {
+  order: 3;
+  display: flex;
+  align-items: center;
+  height: 64px;
+  line-height: normal;
+}
+
+@media only screen and (min-width: 1600px) {
+  .glass-container {
+    display: none;
+  }
+}
+
+.glass {
+  height: 1.5rem;
+  margin-inline-start: .875rem;
 }
 
 .mySwiper-1>div>.swiper-slide {
@@ -293,6 +343,12 @@ li:not(.active)>.dropdown-content {
   width: calc(100% - (var(--padding1920) * 2)) !important;
   margin: 0 var(--padding1920);
 }
+
+.mySwiper-1>.swiper-button-next,
+.mySwiper-1>.swiper-button-prev {
+  display: none;
+}
+
 
 #first-slide,
 #second-slide,
@@ -448,7 +504,6 @@ li:not(.active)>.dropdown-content {
   }
 }
 
-
 @media only screen and (min-width: 768px) {
   #fifth-slide {
     background-image: url("/images/slider-1-768-5.webp");
@@ -478,6 +533,48 @@ li:not(.active)>.dropdown-content {
     background-image: url("/images/slider-1-3000-5.webp");
   }
 }
+
+
+@media only screen and (max-width: 767px) {
+
+  #first-slide,
+  #second-slide,
+  #third-slide,
+  #fourth-slide,
+  #fifth-slide {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1/1;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+  #first-slide,
+  #second-slide,
+  #third-slide,
+  #fourth-slide,
+  #fifth-slide {
+    aspect-ratio: 768/432;
+    height: auto;
+  }
+}
+
+
+@media only screen and (min-width: 1367px) {
+
+  #first-slide,
+  #second-slide,
+  #third-slide,
+  #fourth-slide,
+  #fifth-slide {
+    aspect-ratio: 2.6;
+    height: auto;
+  }
+}
+
+
+
 
 .slider-1-content {
   position: relative;
@@ -523,19 +620,79 @@ li:not(.active)>.dropdown-content {
 }
 
 .slider-1-banner {
-  width: 100%;
-  max-height: 230px;
+  width: 5rem;
+}
+
+@media only screen and (min-width: 1024px) {
+  .slider-1-banner {
+    width: 16.75rem;
+    aspect-ratio: 1.7;
+  }
+}
+
+@media only screen and (min-width: 1367px) {
+  .slider-1-banner {
+    width: 32.875rem;
+    aspect-ratio: 2.7;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .slider-1-banner {
+    width: 39rem;
+    aspect-ratio: 2.26;
+  }
 }
 
 .slider-1-text-container {
   color: #fff;
 }
 
+@media only screen and (min-width: 1024px) {
+  .slider-1-text-container {
+    width: 26rem;
+    margin-bottom: 3.5rem;
+  }
+}
+
+@media only screen and (min-width: 1367px) {
+  .slider-1-text-container {
+    width: 32.875rem;
+  }
+}
+
+@media only screen and (min-width: 2120px) {
+  .slider-1-text-container {
+    width: 39rem;
+  }
+}
+
 .slider-1-subtitle {
-  font-size: 2rem;
-  font-weight: 300;
   margin-block-end: 2rem;
   text-align: left;
+}
+
+@media only screen and (min-width: 1024px) {
+  .slider-1-subtitle {
+    margin-block-end: 1.5rem;
+  }
+}
+
+.slider-1-subtitle>h2 {
+  font-weight: 100;
+}
+
+@media only screen and (min-width: 768px) {
+  .slider-1-subtitle>h2 {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .slider-1-subtitle>h2 {
+    font-size: 2.44rem;
+    margin: 1.5rem 0;
+  }
 }
 
 .slider-1-p {
@@ -544,23 +701,46 @@ li:not(.active)>.dropdown-content {
   text-align: left;
 }
 
+@media only screen and (min-width: 1024px) {
+  .slider-1-p {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 2120px) {
+  .slider-1-p {
+    font-size: 1.2rem;
+  }
+}
+
 .slider-1-button-container {
   display: flex;
   justify-content: flex-start;
 }
 
 .slider-1-button {
-  font-size: 1.125rem;
-  padding: 0.875rem 1.125rem;
+  font-size: .875rem;
+  padding: .625rem .875rem;
   border-top-left-radius: 999px;
   border-top-right-radius: 999px;
   border-bottom-left-radius: 999px;
   border-bottom-right-radius: 999px;
   border: none;
+  font-weight: 600;
 }
 
-@media only screen and (max-width: 767px) {
-  .slider-2 {}
+@media only screen and (min-width: 1367px) {
+  .slider-1-button {
+    font-size: 1rem;
+    padding: 0.75rem 1rem;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .slider-1-button {
+    font-size: 1.125rem;
+    padding: 0.875rem 1.125rem;
+  }
 }
 
 .slider-2 {
@@ -620,7 +800,6 @@ li:not(.active)>.dropdown-content {
   .img-slides-2 {
     display: flex;
     flex-direction: column;
-    padding: 0 22.5px;
   }
 }
 
@@ -801,10 +980,6 @@ li:not(.active)>.dropdown-content {
   }
 }
 
-@media only screen and (max-width: 767px) {
-  .slider-2-mini {}
-}
-
 .slider-2-mini {
   margin-block-end: 2.5rem;
 }
@@ -874,8 +1049,8 @@ li:not(.active)>.dropdown-content {
   transition: all .25s ease-in-out;
 }
 
-.slide-2-border{
- height: 100%;
+.slide-2-border {
+  height: 100%;
 }
 
 .muestras-slide-2-container {
@@ -1055,7 +1230,6 @@ li:not(.active)>.dropdown-content {
     background-image: url("/images/psp-back-3000.webp");
   }
 }
-
 
 @media only screen and (max-width: 1023px) and (min-width: 768px) {
   .psp {
@@ -1560,24 +1734,6 @@ li:not(.active)>.dropdown-content {
   border-radius: 1rem;
   box-shadow: 0.25rem 0.3rem 0.3rem rgb(212, 212, 212);
   transition: all 0.2s ease-in-out;
-}
-
-@media only screen and (min-width: 1367px) and (max-width: 1919px) {
-  .pss-img {
-    width: 101%;
-  }
-}
-
-@media only screen and (min-width: 1920px) {
-  .pss-img {
-    width: 101%;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1366px) {
-  .pss-img {
-    width: 109%;
-  }
 }
 
 .pss-img:hover {
@@ -2333,12 +2489,12 @@ li:not(.active)>.dropdown-content {
 #mS4-11 {
   border-radius: 1rem;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position-x: center;
   background-position-y: center;
   width: 98%;
   margin: 0 1%;
-  aspect-ratio: 1/1.25;
+  aspect-ratio: 1/1;
 }
 
 #mS4-1 {
