@@ -14,6 +14,7 @@ function myFunction() {
 }
 
 
+
 let slideIndex3 = 1;
 
 function currentSlide3(n) {
