@@ -62,7 +62,7 @@ a {
   height: 2.25rem;
   width: 4.75rem;
   margin: 0 0.5rem;
-  background-image: url("/Sony/images/sony-logo.jpg");
+  background-image: url("/images/sony-logo.jpg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -406,175 +406,175 @@ li:not(.active)>.dropdown-content {
 }
 
 #first-slide {
-  background-image: url(/Sony/images/slider-1-320.webp);
+  background-image: url(/images/slider-1-320.webp);
 }
 
 #second-slide {
-  background-image: url(/Sony/images/slider-1-320-2.webp);
+  background-image: url(/images/slider-1-320-2.webp);
 }
 
 #third-slide {
-  background-image: url(/Sony/images/slider-1-320-3.webp);
+  background-image: url(/images/slider-1-320-3.webp);
 }
 
 
 #fourth-slide {
-  background-image: url(/Sony/images/slider-1-320-4.webp);
+  background-image: url(/images/slider-1-320-4.webp);
 }
 
 
 #fifth-slide {
-  background-image: url(/Sony/images/slider-1-320-5.webp);
+  background-image: url(/images/slider-1-320-5.webp);
 }
 
 @media only screen and (min-width: 768px) {
   #first-slide {
-    background-image: url("/Sony/images/slider-1-768.webp");
+    background-image: url("/images/slider-1-768.webp");
   }
 }
 
 @media only screen and (min-width: 1024px) {
   #first-slide {
-    background-image: url("/Sony/images/slider-1-1024.webp");
+    background-image: url("/images/slider-1-1024.webp");
   }
 }
 
 @media only screen and (min-width: 1367px) {
   #first-slide {
-    background-image: url("/Sony/images/slider-1-1367.webp");
+    background-image: url("/images/slider-1-1367.webp");
   }
 }
 
 @media only screen and (min-width: 1920px) {
   #first-slide {
-    background-image: url("/Sony/images/slider-1-1920.webp");
+    background-image: url("/images/slider-1-1920.webp");
   }
 }
 
 @media only screen and (min-width: 3000px) {
   #first-slide {
-    background-image: url("/Sony/images/slider-1-3000.webp");
+    background-image: url("/images/slider-1-3000.webp");
   }
 }
 
 @media only screen and (min-width: 768px) {
   #second-slide {
-    background-image: url("/Sony/images/slider-1-768-2.webp");
+    background-image: url("/images/slider-1-768-2.webp");
   }
 }
 
 @media only screen and (min-width: 1024px) {
   #second-slide {
-    background-image: url("/Sony/images/slider-1-1024-2.webp");
+    background-image: url("/images/slider-1-1024-2.webp");
   }
 }
 
 @media only screen and (min-width: 1367px) {
   #second-slide {
-    background-image: url("/Sony/images/slider-1-1367-2.jpeg");
+    background-image: url("/images/slider-1-1367-2.jpeg");
   }
 }
 
 @media only screen and (min-width: 1920px) {
   #second-slide {
-    background-image: url("/Sony/images/slider-1-1920-2.webp");
+    background-image: url("/images/slider-1-1920-2.webp");
   }
 }
 
 @media only screen and (min-width: 3000px) {
   #second-slide {
-    background-image: url("/Sony/images/slider-1-3000-2.webp");
+    background-image: url("/images/slider-1-3000-2.webp");
   }
 }
 
 @media only screen and (min-width: 768px) {
   #third-slide {
-    background-image: url("/Sony/images/slider-1-768-3.webp");
+    background-image: url("/images/slider-1-768-3.webp");
   }
 }
 
 @media only screen and (min-width: 1024px) {
   #third-slide {
-    background-image: url("/Sony/images/slider-1-1024-3.webp");
+    background-image: url("/images/slider-1-1024-3.webp");
   }
 }
 
 @media only screen and (min-width: 1367px) {
   #third-slide {
-    background-image: url("/Sony/images/slider-1-1367-3.jpeg");
+    background-image: url("/images/slider-1-1367-3.jpeg");
   }
 }
 
 @media only screen and (min-width: 1920px) {
   #third-slide {
-    background-image: url("/Sony/images/slider-1-1920-3.webp");
+    background-image: url("/images/slider-1-1920-3.webp");
   }
 }
 
 @media only screen and (min-width: 3000px) {
   #third-slide {
-    background-image: url("/Sony/images/slider-1-3000-3.webp");
+    background-image: url("/images/slider-1-3000-3.webp");
   }
 }
 
 
 @media only screen and (min-width: 768px) {
   #fourth-slide {
-    background-image: url("/Sony/images/slider-1-768-4.webp");
+    background-image: url("/images/slider-1-768-4.webp");
   }
 }
 
 @media only screen and (min-width: 1024px) {
   #fourth-slide {
-    background-image: url("/Sony/images/slider-1-1024-4.webp");
+    background-image: url("/images/slider-1-1024-4.webp");
   }
 }
 
 @media only screen and (min-width: 1367px) {
   #fourth-slide {
-    background-image: url("/Sony/images/slider-1-1367-4.webp");
+    background-image: url("/images/slider-1-1367-4.webp");
   }
 }
 
 @media only screen and (min-width: 1920px) {
   #fourth-slide {
-    background-image: url("/Sony/images/slider-1-1920-4.webp");
+    background-image: url("/images/slider-1-1920-4.webp");
   }
 }
 
 @media only screen and (min-width: 3000px) {
   #fourth-slide {
-    background-image: url("/Sony/images/slider-1-3000-4.webp");
+    background-image: url("/images/slider-1-3000-4.webp");
   }
 }
 
 @media only screen and (min-width: 768px) {
   #fifth-slide {
-    background-image: url("/Sony/images/slider-1-768-5.webp");
+    background-image: url("/images/slider-1-768-5.webp");
   }
 }
 
 @media only screen and (min-width: 1024px) {
   #fifth-slide {
-    background-image: url("/Sony/images/slider-1-1024-5.webp");
+    background-image: url("/images/slider-1-1024-5.webp");
   }
 }
 
 @media only screen and (min-width: 1367px) {
   #fifth-slide {
-    background-image: url("/Sony/images/slider-1-1367-5.jpeg");
+    background-image: url("/images/slider-1-1367-5.jpeg");
   }
 }
 
 @media only screen and (min-width: 1920px) {
   #fifth-slide {
-    background-image: url("/Sony/images/slider-1-1920-5.webp");
+    background-image: url("/images/slider-1-1920-5.webp");
   }
 }
 
 @media only screen and (min-width: 3000px) {
   #fifth-slide {
-    background-image: url("/Sony/images/slider-1-3000-5.webp");
+    background-image: url("/images/slider-1-3000-5.webp");
   }
 }
 
@@ -734,52 +734,52 @@ li:not(.active)>.dropdown-content {
 }
 
 #first-banner {
-  background-image: url(/Sony/images/banner-320-1.webp);
+  background-image: url(/images/banner-320-1.webp);
 }
 
 @media only screen and (min-width: 768px) {
   #first-banner {
-    background-image: url(/Sony/images/banner-768-1.webp);
+    background-image: url(/images/banner-768-1.webp);
   }
 }
 
 #second-banner {
-  background-image: url(/Sony/images/banner-320-2.webp);
+  background-image: url(/images/banner-320-2.webp);
 }
 
 @media only screen and (min-width: 768px) {
   #second-banner {
-    background-image: url(/Sony/images/banner-768-2.webp);
+    background-image: url(/images/banner-768-2.webp);
   }
 }
 
 #third-banner {
-  background-image: url(/Sony/images/banner-320-3.webp);
+  background-image: url(/images/banner-320-3.webp);
 }
 
 @media only screen and (min-width: 768px) {
   #third-banner {
-    background-image: url(/Sony/images/banner-768-3.webp);
+    background-image: url(/images/banner-768-3.webp);
   }
 }
 
 #fourth-banner {
-  background-image: url(/Sony/images/banner-320-4.webp);
+  background-image: url(/images/banner-320-4.webp);
 }
 
 @media only screen and (min-width: 768px) {
   #fourth-banner {
-    background-image: url(/Sony/images/banner-768-4.webp);
+    background-image: url(/images/banner-768-4.webp);
   }
 }
 
 #fifth-banner {
-  background-image: url(/Sony/images/banner-320-5.webp);
+  background-image: url(/images/banner-320-5.webp);
 }
 
 @media only screen and (min-width: 768px) {
   #fifth-banner {
-    background-image: url(/Sony/images/banner-768-5.webp);
+    background-image: url(/images/banner-768-5.webp);
   }
 }
 
@@ -996,7 +996,8 @@ li:not(.active)>.dropdown-content {
 }
 
 .mySwiper-2>.swiper-wrapper>.swiper-slide,
-.mySwiper-7>.swiper-wrapper>.swiper-slide {
+.mySwiper-7>.swiper-wrapper>.swiper-slide,
+.mySwiper-3>.swiper-wrapper>.swiper-slide {
   display: flex;
   justify-content: center;
 }
@@ -1069,23 +1070,23 @@ li:not(.active)>.dropdown-content {
 }
 
 .mySwiper-1>.swiper-pagination>span[aria-label="Go to slide 1"] {
-  background-image: url(/Sony/images/slider-1-mini-320-1.webp);
+  background-image: url(/images/slider-1-mini-320-1.webp);
 }
 
 .mySwiper-1>.swiper-pagination>span[aria-label="Go to slide 2"] {
-  background-image: url(/Sony/images/slider-1-mini-320-2.webp);
+  background-image: url(/images/slider-1-mini-320-2.webp);
 }
 
 .mySwiper-1>.swiper-pagination>span[aria-label="Go to slide 3"] {
-  background-image: url(/Sony/images/slider-1-mini-320-3.webp);
+  background-image: url(/images/slider-1-mini-320-3.webp);
 }
 
 .mySwiper-1>.swiper-pagination>span[aria-label="Go to slide 4"] {
-  background-image: url(/Sony/images/slider-1-mini-320-4.webp);
+  background-image: url(/images/slider-1-mini-320-4.webp);
 }
 
 .mySwiper-1>.swiper-pagination>span[aria-label="Go to slide 5"] {
-  background-image: url(/Sony/images/slider-1-mini-320-5.webp);
+  background-image: url(/images/slider-1-mini-320-5.webp);
 }
 
 .mySwiper-1>.swiper-pagination>span[aria-label="Go to slide 1"]:hover,
@@ -1576,7 +1577,7 @@ li:not(.active)>.dropdown-content {
 .psp {
   display: flex;
   flex-direction: row;
-  background-image: url("/Sony/images/psp-back-320.webp");
+  background-image: url("/images/psp-back-320.webp");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 3rem 22.5px 0 22.5px;
@@ -1584,31 +1585,31 @@ li:not(.active)>.dropdown-content {
 
 @media only screen and (min-width: 768px) {
   .psp {
-    background-image: url("/Sony/images/psp-back-768.webp");
+    background-image: url("/images/psp-back-768.webp");
   }
 }
 
 @media only screen and (min-width: 1024px) {
   .psp {
-    background-image: url("/Sony/images/psp-back-1024.webp");
+    background-image: url("/images/psp-back-1024.webp");
   }
 }
 
 @media only screen and (min-width: 1367px) {
   .psp {
-    background-image: url("/Sony/images/psp-back-1367.webp");
+    background-image: url("/images/psp-back-1367.webp");
   }
 }
 
 @media only screen and (min-width: 1920px) {
   .psp {
-    background-image: url("/Sony/images/psp-back-1920.webp");
+    background-image: url("/images/psp-back-1920.webp");
   }
 }
 
 @media only screen and (min-width: 3000px) {
   .psp {
-    background-image: url("/Sony/images/psp-back-3000.webp");
+    background-image: url("/images/psp-back-3000.webp");
   }
 }
 
@@ -1705,20 +1706,20 @@ li:not(.active)>.dropdown-content {
 
 .psp-psp-image {
   margin-block-end: 2rem;
-  background-image: url(/Sony/images/psp-logo-320.webp);
+  background-image: url(/images/psp-logo-320.webp);
   aspect-ratio: 400/89;
   background-size: contain;
 }
 
 @media only screen and (min-width: 768px) {
   .psp-psp-image {
-    background-image: url(/Sony/images/psp-logo-768.webp);
+    background-image: url(/images/psp-logo-768.webp);
   }
 }
 
 @media only screen and (min-width: 1024px) {
   .psp-psp-image {
-    background-image: url(/Sony/images/psp-logo-1024.webp);
+    background-image: url(/images/psp-logo-1024.webp);
   }
 }
 
@@ -1760,7 +1761,7 @@ li:not(.active)>.dropdown-content {
   display: flex;
   justify-content: center;
   animation: psp-games 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  background-image: url(/Sony/images/psp-320px.webp);
+  background-image: url(/images/psp-320px.webp);
   background-size: cover;
   aspect-ratio: 400/341;
 }
@@ -1768,13 +1769,13 @@ li:not(.active)>.dropdown-content {
 
 @media only screen and (min-width: 768px) {
   .psp-games {
-    background-image: url(/Sony/images/psp-768px.webp);
+    background-image: url(/images/psp-768px.webp);
   }
 }
 
 @media only screen and (min-width: 1024px)and (max-width: 1366px) {
   .psp-games {
-    background-image: url(/Sony/images/psp-1024px.webp);
+    background-image: url(/images/psp-1024px.webp);
     background-size: contain;
     background-repeat: no-repeat;
     width: 21.5rem;
@@ -2132,7 +2133,7 @@ li:not(.active)>.dropdown-content {
 }
 
 .this-month {
-  background-image: url("/Sony/images/this-month-320.webp");
+  background-image: url("/images/this-month-320.webp");
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -2147,31 +2148,31 @@ li:not(.active)>.dropdown-content {
 
 @media only screen and (min-width: 768px) {
   .this-month {
-    background-image: url("/Sony/images/this-month-768.webp");
+    background-image: url("/images/this-month-768.webp");
   }
 }
 
 @media only screen and (min-width: 1024px) {
   .this-month {
-    background-image: url("/Sony/images/this-month-1024.webp");
+    background-image: url("/images/this-month-1024.webp");
   }
 }
 
 @media only screen and (min-width: 1367px) {
   .this-month {
-    background-image: url("/Sony/images/this-month-1367.webp");
+    background-image: url("/images/this-month-1367.webp");
   }
 }
 
 @media only screen and (min-width: 1920px) {
   .this-month {
-    background-image: url("/Sony/images/this-month-1920.webp");
+    background-image: url("/images/this-month-1920.webp");
   }
 }
 
 @media only screen and (min-width: 3000px) {
   .this-month {
-    background-image: url("/Sony/images/this-month-3000.webp");
+    background-image: url("/images/this-month-3000.webp");
   }
 }
 
@@ -2511,7 +2512,7 @@ li:not(.active)>.dropdown-content {
 }
 
 .new-releases {
-  background-image: url("/Sony/images/320releases.webp");
+  background-image: url("/images/320releases.webp");
   background-size: cover;
   background-position-x: center;
   background-repeat: no-repeat;
@@ -2528,25 +2529,25 @@ li:not(.active)>.dropdown-content {
 
 @media only screen and (min-width: 768px) {
   .new-releases {
-    background-image: url("/Sony/images/768releases.webp");
+    background-image: url("/images/768releases.webp");
   }
 }
 
 @media only screen and (min-width: 1024px) {
   .new-releases {
-    background-image: url("/Sony/images/1024releases.webp");
+    background-image: url("/images/1024releases.webp");
   }
 }
 
 @media only screen and (min-width: 1367px) {
   .new-releases {
-    background-image: url("/Sony/images/1367releases.webp");
+    background-image: url("/images/1367releases.webp");
   }
 }
 
 @media only screen and (min-width: 1920px) {
   .new-releases {
-    background-image: url("/Sony/images/1920releases.webp");
+    background-image: url("/images/1920releases.webp");
     padding-top: 4rem;
     padding-bottom: 4rem;
   }
@@ -2554,7 +2555,7 @@ li:not(.active)>.dropdown-content {
 
 @media only screen and (min-width: 3000px) {
   .new-releases {
-    background-image: url("/Sony/images/3000releases.webp");
+    background-image: url("/images/3000releases.webp");
   }
 }
 
@@ -2615,7 +2616,7 @@ li:not(.active)>.dropdown-content {
 .new-releases-container-img {
   width: 50%;
   animation: new-releases-container-img 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  background-image: url(/Sony/images/gow-320.webp);
+  background-image: url(/images/gow-320.webp);
   aspect-ratio: 3;
   background-size: contain;
   background-repeat: no-repeat;
@@ -2625,7 +2626,7 @@ li:not(.active)>.dropdown-content {
 @media only screen and (min-width: 768px) {
   .new-releases-container-img {
     width: calc((73.33px * 5) + (4 * 2.5rem));
-    background-image: url(/Sony/images/gow-768.webp);
+    background-image: url(/images/gow-768.webp);
   }
 }
 
@@ -2879,189 +2880,189 @@ li:not(.active)>.dropdown-content {
 }
 
 #mS4-1 {
-  background-image: url(/Sony/images/mS4-small-1.webp);
+  background-image: url(/images/mS4-small-1.webp);
 
 }
 
 @media only screen and (min-width: 720px) {
   #mS4-1 {
-    background-image: url(/Sony/images/mS4-medium-1.webp);
+    background-image: url(/images/mS4-medium-1.webp);
   }
 }
 
 @media only screen and (min-width: 1024px) {
   #mS4-1 {
-    background-image: url(/Sony/images/mS4-big-1.webp);
+    background-image: url(/images/mS4-big-1.webp);
   }
 }
 
 #mS4-2 {
-  background-image: url(/Sony/images/mS4-small-2.webp);
+  background-image: url(/images/mS4-small-2.webp);
 
 }
 
 @media only screen and (min-width: 720px) {
   #mS4-2 {
-    background-image: url(/Sony/images/mS4-medium-2.webp);
+    background-image: url(/images/mS4-medium-2.webp);
   }
 }
 
 @media only screen and (min-width: 1024px) {
   #mS4-2 {
-    background-image: url(/Sony/images/mS4-big-2.webp);
+    background-image: url(/images/mS4-big-2.webp);
   }
 }
 
 #mS4-3 {
-  background-image: url(/Sony/images/mS4-small-3.webp);
+  background-image: url(/images/mS4-small-3.webp);
 
 }
 
 @media only screen and (min-width: 720px) {
   #mS4-3 {
-    background-image: url(/Sony/images/mS4-medium-3.webp);
+    background-image: url(/images/mS4-medium-3.webp);
   }
 }
 
 @media only screen and (min-width: 1024px) {
   #mS4-3 {
-    background-image: url(/Sony/images/mS4-big-3.webp);
+    background-image: url(/images/mS4-big-3.webp);
   }
 }
 
 #mS4-4 {
-  background-image: url(/Sony/images/mS4-small-4.webp);
+  background-image: url(/images/mS4-small-4.webp);
 
 }
 
 @media only screen and (min-width: 720px) {
   #mS4-4 {
-    background-image: url(/Sony/images/mS4-medium-4.webp);
+    background-image: url(/images/mS4-medium-4.webp);
   }
 }
 
 @media only screen and (min-width: 1024px) {
   #mS4-4 {
-    background-image: url(/Sony/images/mS4-big-4.webp);
+    background-image: url(/images/mS4-big-4.webp);
   }
 }
 
 #mS4-5 {
-  background-image: url(/Sony/images/mS4-small-5.webp);
+  background-image: url(/images/mS4-small-5.webp);
 
 }
 
 @media only screen and (min-width: 720px) {
   #mS4-5 {
-    background-image: url(/Sony/images/mS4-medium-5.webp);
+    background-image: url(/images/mS4-medium-5.webp);
   }
 }
 
 @media only screen and (min-width: 1024px) {
   #mS4-5 {
-    background-image: url(/Sony/images/mS4-big-5.webp);
+    background-image: url(/images/mS4-big-5.webp);
   }
 }
 
 #mS4-6 {
-  background-image: url(/Sony/images/mS4-small-6.webp);
+  background-image: url(/images/mS4-small-6.webp);
 
 }
 
 @media only screen and (min-width: 720px) {
   #mS4-6 {
-    background-image: url(/Sony/images/mS4-medium-6.webp);
+    background-image: url(/images/mS4-medium-6.webp);
   }
 }
 
 @media only screen and (min-width: 1024px) {
   #mS4-6 {
-    background-image: url(/Sony/images/mS4-big-6.webp);
+    background-image: url(/images/mS4-big-6.webp);
   }
 }
 
 #mS4-7 {
-  background-image: url(/Sony/images/mS4-small-7.webp);
+  background-image: url(/images/mS4-small-7.webp);
 
 }
 
 @media only screen and (min-width: 720px) {
   #mS4-7 {
-    background-image: url(/Sony/images/mS4-medium-7.webp);
+    background-image: url(/images/mS4-medium-7.webp);
   }
 }
 
 @media only screen and (min-width: 1024px) {
   #mS4-7 {
-    background-image: url(/Sony/images/mS4-big-7.webp);
+    background-image: url(/images/mS4-big-7.webp);
   }
 }
 
 #mS4-8 {
-  background-image: url(/Sony/images/mS4-small-8.webp);
+  background-image: url(/images/mS4-small-8.webp);
 
 }
 
 @media only screen and (min-width: 720px) {
   #mS4-8 {
-    background-image: url(/Sony/images/mS4-medium-8.webp);
+    background-image: url(/images/mS4-medium-8.webp);
   }
 }
 
 @media only screen and (min-width: 1024px) {
   #mS4-8 {
-    background-image: url(/Sony/images/mS4-big-8.webp);
+    background-image: url(/images/mS4-big-8.webp);
   }
 }
 
 #mS4-9 {
-  background-image: url(/Sony/images/mS4-small-9.webp);
+  background-image: url(/images/mS4-small-9.webp);
 
 }
 
 @media only screen and (min-width: 720px) {
   #mS4-9 {
-    background-image: url(/Sony/images/mS4-medium-9.webp);
+    background-image: url(/images/mS4-medium-9.webp);
   }
 }
 
 @media only screen and (min-width: 1024px) {
   #mS4-9 {
-    background-image: url(/Sony/images/mS4-big-9.webp);
+    background-image: url(/images/mS4-big-9.webp);
   }
 }
 
 #mS4-10 {
-  background-image: url(/Sony/images/mS4-small-10.webp);
+  background-image: url(/images/mS4-small-10.webp);
 
 }
 
 @media only screen and (min-width: 720px) {
   #mS4-10 {
-    background-image: url(/Sony/images/mS4-medium-10.webp);
+    background-image: url(/images/mS4-medium-10.webp);
   }
 }
 
 @media only screen and (min-width: 1024px) {
   #mS4-10 {
-    background-image: url(/Sony/images/mS4-big-10.webp);
+    background-image: url(/images/mS4-big-10.webp);
   }
 }
 
 #mS4-11 {
-  background-image: url(/Sony/images/mS4-small-11.webp);
+  background-image: url(/images/mS4-small-11.webp);
 
 }
 
 @media only screen and (min-width: 720px) {
   #mS4-11 {
-    background-image: url(/Sony/images/mS4-medium-11.webp);
+    background-image: url(/images/mS4-medium-11.webp);
   }
 }
 
 @media only screen and (min-width: 1024px) {
   #mS4-11 {
-    background-image: url(/Sony/images/mS4-big-11.webp);
+    background-image: url(/images/mS4-big-11.webp);
   }
 }
 
@@ -3422,7 +3423,7 @@ li:not(.active)>.dropdown-content {
 
 
 .ps-shop {
-  background-image: url("/Sony/images/others/pshop.jpg");
+  background-image: url("/images/others/pshop.jpg");
   background-size: cover;
   color: #fff;
   padding: 3rem 22.5px 0 22.5px;
