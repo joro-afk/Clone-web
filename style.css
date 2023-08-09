@@ -987,6 +987,7 @@ li:not(.active)>.dropdown-content {
   outline: solid 2px #0070bd;
   outline-offset: 2px;
   border-radius: 1rem;
+    overflow: hidden;
 }
 
 .mySwiper-7-img-mini {
