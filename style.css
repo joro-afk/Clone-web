@@ -1029,6 +1029,7 @@ li:not(.active)>.dropdown-content {
 .mySwiper-8>.swiper-wrapper>.swiper-slide-active {
   outline: 2px solid #0070bd;
   outline-offset: 2px;
+-webkit-outline-radius: 1rem;
   border-radius: 1rem;
   width: min-content !important;
   margin-left: 1rem;
