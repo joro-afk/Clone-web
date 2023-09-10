@@ -5,6 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
   <link rel="stylesheet" type="text/css" href="style.css" />
   <link rel="shortcut icon" href="images/sony.png">
   <link href="http://fonts.cdnfonts.com/css/sst" rel="stylesheet">
@@ -25,6 +26,25 @@
     </div>
   </header>
   <section id="principal">
+
+
+
+    <ul class="menu-burger">
+      <li><a class="menuItem" href="#">Games</a></li>
+      <li><a class="menuItem" href="#">Hardware</a></li>
+      <li><a class="menuItem" href="#">Services</a></li>
+      <li><a class="menuItem" href="#">News</a></li>
+      <li><a class="menuItem" href="#">Shop</a></li>
+      <li><a class="menuItem" href="#">Support</a></li>
+    </ul>
+    <button class="hamburger">
+      <i class="menuIcon material-icons">menu</i>
+      <i class="closeIcon material-icons">close</i>
+    </button>
+
+
+
+
     <div class="barra">
       <nav class="navigation">
         <div class="container-ps-logo">
@@ -305,16 +325,16 @@
                   <div class="slider-1-subtitle">
                     <h2>Tournaments</h2>
                   </div>
-                </div>  
+                </div>
               </div>
             </div>
           </div>
           <div class="mySwiper-2-empty" id="mS2-4">
             <p class="slider-1-p">The worlds premiere fighting game event is live! Witness top-tier bouts, grand
               reveals and more.</p>
-              <div class="slider-1-button-container">
-                <button class="slider-1-button">Find out more</button>
-              </div>
+            <div class="slider-1-button-container">
+              <button class="slider-1-button">Find out more</button>
+            </div>
           </div>
         </div>
         <div class="swiper-slide">
@@ -1744,6 +1764,10 @@
   <script>
     var swiper = new Swiper(".mySwiper-1", {
 
+      effect: 'fade',
+      fadeEffect: {
+        crossFade: true
+      },
       spaceBetween: 0,
       centeredSlides: true,
       autoplay: {
