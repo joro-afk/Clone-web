@@ -6,7 +6,7 @@ let navbar = document.getElementById("principal");
 let sticky = navbar.offsetTop;
 
 function myFunction() {
-  if (window.pageYOffset >= sticky) {
+  if (window.pageYOffset > sticky) {
     navbar.classList.add("sticky");
   } else {
     navbar.classList.remove("sticky");
@@ -60,4 +60,26 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
+const menu = document.querySelector(".menu-burger");
+const hamburger = document.querySelector(".hamburger");
+const closeIcon = document.querySelector(".closeIcon");
+const menuIcon = document.querySelector(".menuIcon");
+
+function toggleMenu() {
+  if (menu.classList.contains("showMenu")) {
+    menu.classList.remove("showMenu");
+    closeIcon.style.display = "none";
+    menuIcon.style.display = "block";
+    document.body.classList.remove("stop-scrolling")
+  } else {
+    menu.classList.add("showMenu");
+    closeIcon.style.display = "block";
+    menuIcon.style.display = "none";
+    document.body.classList.add("stop-scrolling")
+  };
+}
+
+hamburger.addEventListener("click", toggleMenu);
+
 
