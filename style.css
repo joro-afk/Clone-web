@@ -78,7 +78,7 @@ a {
 .sticky {
   position: fixed;
   top: 0;
-  width: 100vw;
+  width: 100%;
 }
 
 .barra {
@@ -98,6 +98,46 @@ a {
     width: 100%;
     padding: 0;
   }
+}
+
+.hamburger {
+  display: none;
+  border: none;
+}
+
+@media only screen and (max-width: 699px) {
+  .hamburger {
+    display: block;
+  }
+}
+
+.menu-burger {
+  display: none;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  z-index: 999;
+  margin: 0;
+  padding: 2rem 0 0 0;
+  top: 4rem;
+}
+
+.closeIcon {
+  display: none;
+}
+
+.showMenu {
+  display: block;
+}
+
+.menuItem {
+  color: #000;
+}
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
 }
 
 .navigation {
@@ -178,7 +218,7 @@ a {
 
 .angle {
   height: .75rem;
-  padding: 0 5px 0 0;
+  padding: 0 5px 1px 0;
 }
 
 .dropdown {
@@ -1029,28 +1069,15 @@ li:not(.active)>.dropdown-content {
 .mySwiper-8>.swiper-wrapper>.swiper-slide-active {
   outline: 2px solid #0070bd;
   outline-offset: 2px;
--webkit-outline-radius: 1rem;
   border-radius: 1rem;
   width: min-content !important;
   margin-left: 1rem;
 }
 
+
 .mySwiper-8 {
   padding: var(--padding200) !important;
 }
-
-/* .mySwiper-3>.swiper-wrapper>.swiper-slide-active:before,
-.mySwiper-8>.swiper-wrapper>.swiper-slide-active:before {
-  content: " ";
-  position: absolute;
-  z-index: 100;
-  top: -4px;
-  left: -4px;
-  right: -4px;
-  bottom: -4px;
-  border: 2px solid #0070bd;
-  border-radius: 1rem;
-} */
 
 .mySwiper-7-img-mini {
   width: calc((100vw - 105px) * 0.5);
