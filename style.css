@@ -1056,12 +1056,6 @@ a {
   font-weight: 600;
 }
 
-@media only screen and (max-width: 1023px) {
-  .slider-1-button {
-    margin-bottom: 3rem;
-  }
-}
-
 @media only screen and (min-width: 1367px) {
   .slider-1-button {
     font-size: 1rem;
@@ -1080,6 +1074,12 @@ a {
   border: solid 2px transparent;
   padding: 2px;
   border-radius: 999px;
+}
+
+@media only screen and (max-width: 1023px) {
+  .slider-1-button-container-border {
+    margin-bottom: 3rem;
+  }
 }
 
 .slider-1-button-container-border:hover {
@@ -1157,7 +1157,8 @@ a {
 
 .swiper-slide-border-container {
   border: solid 2px transparent;
-  border-radius: calc(1rem + 6px);
+  border-radius: 1rem;
+  padding: 2px 2px 0 2px;
 }
 
 .mySwiper-3>.swiper-wrapper>.swiper-slide-active,
@@ -1167,7 +1168,7 @@ a {
 
   .swiper-slide-border-container {
     border: solid 2px #0072ce;
-    border-radius: calc(1rem + 6px);
+    border-radius: 1rem;
   }
 }
 
@@ -1321,11 +1322,6 @@ a {
   transition-duration: .25s;
 }
 
-.mySwiper-1>div>.swiper-pagination-bullet-active {
-  opacity: 1;
-  outline-offset: .25rem;
-  outline: solid .25rem #0070BD;
-}
 
 @media only screen and (max-width: 767px) {
   .mySwiper-1 {
