@@ -2,9 +2,7 @@ window.onscroll = function () {
   myFunction();
 };
 let navbar = document.getElementById("principal");
-
 let sticky = navbar.offsetTop;
-
 function myFunction() {
   if (window.pageYOffset > sticky) {
     navbar.classList.add("sticky");
@@ -13,14 +11,10 @@ function myFunction() {
   }
 }
 
-
-
 let slideIndex3 = 1;
-
 function currentSlide3(n) {
   showSlides3((slideIndex3 = n));
 }
-
 function showSlides3(n) {
   let i;
   let slides = document.getElementsByClassName("img-container-2");
@@ -43,20 +37,15 @@ function showSlides3(n) {
 
 
 var acc = document.getElementsByClassName("accordion");
-
 var i;
-
 for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function () {
     this.classList.toggle("active");
-
     var panel = this.nextElementSibling;
     if (panel.style.display === "block") {
       panel.style.display = "none"
-
     } else {
       panel.style.display = "block"
-
     }
   });
 }
@@ -65,7 +54,6 @@ const menu = document.querySelector(".menu-burger");
 const hamburger = document.querySelector(".hamburger");
 const closeIcon = document.querySelector(".closeIcon");
 const menuIcon = document.querySelector(".menuIcon");
-
 function toggleMenu() {
   if (menu.classList.contains("showMenu")) {
     menu.classList.remove("showMenu");
@@ -83,3 +71,11 @@ function toggleMenu() {
 hamburger.addEventListener("click", toggleMenu);
 
 
+function dropmenu() {
+  let menunav = document.getElementsByClassName("dropdown-menu");
+  if (menunav.style.display = "none") {
+    menunav.style.display = "block";
+  } else {
+    menunav.style.display = "none"
+  }
+}
