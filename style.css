@@ -772,6 +772,12 @@ a {
   }
 }
 
+@media only screen and (min-width: 1367px) {
+  .slider-1-content {
+    width: max-content;
+  }
+}
+
 @media only screen and (max-width: 1023px) and (min-width: 768px) {
   .slider-1-content {
     width: calc(100% - (var(--padding768)*2));
@@ -1070,9 +1076,12 @@ a {
   }
 }
 
-.slider-1-button:hover {
-  outline: .125rem solid #fff;
-  outline-offset: .125rem;
+.slider-1-button-container-border {
+  border: solid 2px transparent;
+}
+
+.slider-1-button-container-border:hover {
+  border: solid 2px #fff;
 }
 
 .mySwiper-1>.swiper-pagination {
@@ -1142,6 +1151,11 @@ a {
   width: calc(((100vw - 50px) * 0.5) + 2.5px);
   aspect-ratio: 1.76;
   border-radius: 1rem;
+}
+
+.swiper-slide-border-container {
+  border: solid 2px transparent;
+  border-radius: calc(1rem + 6px);
 }
 
 .mySwiper-3>.swiper-wrapper>.swiper-slide-active,
