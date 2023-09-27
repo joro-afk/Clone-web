@@ -1078,6 +1078,8 @@ a {
 
 .slider-1-button-container-border {
   border: solid 2px transparent;
+  padding: 2px;
+  border-radius: 999px;
 }
 
 .slider-1-button-container-border:hover {
