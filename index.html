@@ -30,27 +30,29 @@
 
 
     <ul class="menu-burger">
-      <li class="menu-burger-content"><img src="/images/joystick.png" alt="" class="menuItem-img"><a class="menuItem"
-          href="#">Games</a></li>
-      <li class="menu-burger-content"><img src="/images/hardware.png" alt="" class="menuItem-img"><a class="menuItem"
-          href="#">Hardware</a></li>
-      <li class="menu-burger-content"><img src="/images/screen.png" alt="" class="menuItem-img"><a class="menuItem"
-          href="#">Services</a></li>
-      <li class="menu-burger-content"><img src="/images/news.png" alt="" class="menuItem-img"><a class="menuItem"
-          href="#">News</a></li>
-      <li class="menu-burger-content"><img src="/images/bag.png" alt="" class="menuItem-img"><a class="menuItem"
-          href="#">Shop</a></li>
-      <li class="menu-burger-content"><img src="/images/question.png" alt="" class="menuItem-img"><a class="menuItem"
-          href="#">Support</a></li>
+      <li class="menu-burger-content" id="menu-burger-1">
+        <div class="menuItem-img" id="menu-1"></div><a class="menuItem" href="#">Games</a>
+      </li>
+      <li class="menu-burger-content" id="menu-burger-2">
+        <div class="menuItem-img" id="menu-2"></div><a class="menuItem" href="#">Hardware</a>
+      </li>
+      <li class="menu-burger-content" id="menu-burger-3">
+        <div class="menuItem-img" id="menu-3"></div><a class="menuItem" href="#">Services</a>
+      </li>
+      <li class="menu-burger-content" id="menu-burger-4">
+        <div class="menuItem-img" id="menu-4"></div><a class="menuItem" href="#">News</a>
+      </li>
+      <li class="menu-burger-content" id="menu-burger-5">
+        <div class="menuItem-img" id="menu-5"></div><a class="menuItem" href="#">Shop</a>
+      </li>
+      <li class="menu-burger-content" id="menu-burger-6">
+        <div class="menuItem-img" id="menu-6"></div><a class="menuItem" href="#">Support</a>
+      </li>
     </ul>
     <button class="hamburger">
       <div class="menuIcon material-icons"></div>
       <div class="closeIcon material-icons"></div>
     </button>
-
-
-
-
     <div class="barra">
       <nav class="navigation">
         <div class="container-ps-logo">
@@ -60,60 +62,22 @@
         </div>
         <ul class="menu">
           <li class="menu-content">
-            <a href="#" class="dropdown">
-              <p class="nav-title-text">Games</p> <img src="/images/angle.png" alt="" class="angle">
-            </a>
-            <ul class="dropdown-content">
-              <li><a href="#">HTML</a></li>
-              <li><a href="#">CSS</a></li>
-            </ul>
+            <button class="nav-title-text" onclick="dropmenu()"> Games <div class="angle"></div></button>
           </li>
           <li class="menu-content">
-            <a href="#" class="dropdown">
-              <p class="nav-title-text">Hadware </p><img src="/images/angle.png" alt="" class="angle">
-            </a>
-            <ul class="dropdown-content">
-              <li><a href="#">HTML</a></li>
-              <li><a href="#">CSS</a></li>
-            </ul>
+            <button class="nav-title-text"> Hardware<div class="angle"></div></button>
           </li>
           <li class="menu-content">
-            <a href="#" class="dropdown">
-              <p class="nav-title-text">Service</p><img src="/images/angle.png" alt="" class="angle">
-            </a>
-            <ul class="dropdown-content">
-              <li><a href="#">HTML</a></li>
-              <li><a href="#">CSS</a></li>
-            </ul>
+            <button class="nav-title-text"> Services<div class="angle"></div></button>
           </li>
           <li class="menu-content">
-            <a href="#" class="dropdown">
-              <p class="nav-title-text">News</p><img src="/images/angle.png" alt="" class="angle">
-            </a>
-            <ul class="dropdown-content">
-              <li><a href="#">HTML</a></li>
-              <li><a href="#">CSS</a></li>
-            </ul>
+            <button class="nav-title-text">News<div class="angle"></div></button>
           </li>
           <li class="menu-content">
-            <a href="#" class="dropdown">
-              <p class="nav-title-text">Shop</p><img src="/images/angle.png" alt="" class="angle">
-            </a>
-            <ul class="dropdown-content">
-              <li><a href="#">HTML</a></li>
-              <li><a href="#">CSS</a></li>
-            </ul>
+            <button class="nav-title-text">Shop<div class="angle"></div></button>
           </li>
           <li class="menu-content">
-            <a href="#" class="dropdown">
-              <p class="nav-title-text">Support</p><img src="/images/angle.png" alt="" class="angle">
-            </a>
-            <ul class="dropdown-content">
-              <div class="dropdown-content-menu">
-                <li class="menu-products"><a href="#" class="menu-product-item">HTML</a></li>
-                <li class="menu-products"><a href="#" class="menu-product-item">CSS</a></li>
-              </div>
-            </ul>
+            <button class="nav-title-text">Support<div class="angle"></div></button>
           </li>
         </ul>
       </nav>
@@ -131,6 +95,7 @@
         <img src="/images/glass.png" alt="" class="glass">
       </div>
     </div>
+    <div class="dropdown-menu"></div>
   </section>
   <section>
     <div class="swiper mySwiper-1">
@@ -497,19 +462,29 @@
     <div thumbsSlider="" class="swiper mySwiper-8">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <img src="/images/slide-2/slide2-muestras/ps5.jpg" class="mySwiper-7-img-mini" />
+          <div class="swiper-slide-border-container">
+            <img src="/images/slide-2/slide2-muestras/ps5.jpg" class="mySwiper-7-img-mini" />
+          </div>
         </div>
         <div class="swiper-slide">
-          <img src="/images/slide-2/slide2-muestras/controllers.jpg" class="mySwiper-7-img-mini" />
+          <div class="swiper-slide-border-container">
+            <img src="/images/slide-2/slide2-muestras/controllers.jpg" class="mySwiper-7-img-mini" />
+          </div>
         </div>
         <div class="swiper-slide">
-          <img src="/images/slide-2/slide2-muestras/headset.jpg" class="mySwiper-7-img-mini" />
+          <div class="swiper-slide-border-container">
+            <img src="/images/slide-2/slide2-muestras/headset.jpg" class="mySwiper-7-img-mini" />
+          </div>
         </div>
         <div class="swiper-slide">
-          <img src="/images/slide-2/slide2-muestras/mediaremote.jpg" class="mySwiper-7-img-mini" />
+          <div class="swiper-slide-border-container">
+            <img src="/images/slide-2/slide2-muestras/mediaremote.jpg" class="mySwiper-7-img-mini" />
+          </div>
         </div>
         <div class="swiper-slide">
-          <img src="/images/slide-2/slide2-muestras/ps5cover.jpg" class="mySwiper-7-img-mini" />
+          <div class="swiper-slide-border-container">
+            <img src="/images/slide-2/slide2-muestras/ps5cover.jpg" class="mySwiper-7-img-mini" />
+          </div>
         </div>
       </div>
     </div>
@@ -1790,6 +1765,10 @@
     });
 
     var swiper2 = new Swiper(".mySwiper-2", {
+      effect: 'fade',
+      fadeEffect: {
+        crossFade: true
+      },
       spaceBetween: 10,
       slidesPerView: 1,
       watchSlidesProgress: true,
@@ -1899,9 +1878,6 @@
 
 
   </script>
-</body>
-
-</html>
 </body>
 
 </html>
