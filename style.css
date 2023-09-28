@@ -540,7 +540,6 @@ a {
   background-image: url(/images/slider-1-320-4.webp);
 }
 
-
 #fifth-slide {
   background-image: url(/images/slider-1-320-5.webp);
 }
@@ -1122,6 +1121,11 @@ a {
   }
 }
 
+.swiper-pagination-bullet-active {
+  outline: solid 2px #0072ce;
+  outline-offset: 2px;
+}
+
 @media only screen and (min-width: 768px) {
 
   .mySwiper-2,
@@ -1152,13 +1156,14 @@ a {
 .mySwiper-2-img-mini {
   width: calc(((100vw - 50px) * 0.5) + 2.5px);
   aspect-ratio: 1.76;
-  border-radius: 1rem;
+  border-radius: .8rem;
 }
 
 .swiper-slide-border-container {
+  display: flex;
   border: solid 2px transparent;
   border-radius: 1rem;
-  padding: 2px 2px 0 2px;
+  padding: 2px;
 }
 
 .mySwiper-3>.swiper-wrapper>.swiper-slide-active,
@@ -1258,7 +1263,6 @@ a {
     flex-direction: column;
   }
 }
-
 
 .slide-2-button-1-container {
   padding: 2px;
