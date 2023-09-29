@@ -11,6 +11,26 @@ function myFunction() {
   }
 }
 
+const menu = document.querySelector(".menu-burger");
+const hamburger = document.querySelector(".hamburger");
+const closeIcon = document.querySelector(".closeIcon");
+const menuIcon = document.querySelector(".menuIcon");
+function toggleMenu() {
+  if (menu.classList.contains("showMenu")) {
+    menu.classList.remove("showMenu");
+    closeIcon.style.display = "none";
+    menuIcon.style.display = "block";
+    document.body.classList.remove("stop-scrolling")
+  } else {
+    menu.classList.add("showMenu");
+    closeIcon.style.display = "block";
+    menuIcon.style.display = "none";
+    document.body.classList.add("stop-scrolling")
+  };
+}
+
+hamburger.addEventListener("click", toggleMenu);
+
 let slideIndex3 = 1;
 function currentSlide3(n) {
   showSlides3((slideIndex3 = n));
@@ -35,47 +55,16 @@ function showSlides3(n) {
   dots[slideIndex3 - 1].className += " active";
 }
 
-
-var acc = document.getElementsByClassName("accordion");
-var i;
+let acc = document.getElementsByClassName("accordion");
+let i;
 for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function () {
     this.classList.toggle("active");
-    var panel = this.nextElementSibling;
+    let panel = this.nextElementSibling;
     if (panel.style.display === "block") {
       panel.style.display = "none"
     } else {
       panel.style.display = "block"
     }
   });
-}
-
-const menu = document.querySelector(".menu-burger");
-const hamburger = document.querySelector(".hamburger");
-const closeIcon = document.querySelector(".closeIcon");
-const menuIcon = document.querySelector(".menuIcon");
-function toggleMenu() {
-  if (menu.classList.contains("showMenu")) {
-    menu.classList.remove("showMenu");
-    closeIcon.style.display = "none";
-    menuIcon.style.display = "block";
-    document.body.classList.remove("stop-scrolling")
-  } else {
-    menu.classList.add("showMenu");
-    closeIcon.style.display = "block";
-    menuIcon.style.display = "none";
-    document.body.classList.add("stop-scrolling")
-  };
-}
-
-hamburger.addEventListener("click", toggleMenu);
-
-
-function dropmenu() {
-  let menunav = document.getElementsByClassName("dropdown-menu");
-  if (menunav.style.display = "none") {
-    menunav.style.display = "block";
-  } else {
-    menunav.style.display = "none"
-  }
 }
