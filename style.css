@@ -1170,12 +1170,21 @@ a {
 .mySwiper-8>.swiper-wrapper>.swiper-slide-active {
   width: min-content !important;
   margin-left: 1rem;
-
-  .swiper-slide-border-container {
-    border: solid 2px #0072ce;
-    border-radius: 1rem;
-  }
+  z-index: 99;
 }
+
+.mySwiper-3>.swiper-wrapper>.swiper-slide-active>.swiper-slide-border-container {
+  border: solid 2px #0072ce;
+  border-radius: 1rem;
+  z-index: 100;
+}
+
+.mySwiper-8>.swiper-wrapper>.swiper-slide-active>.swiper-slide-border-container {
+  border: solid 2px #0072ce;
+  border-radius: 1rem;
+  z-index: 100;
+}
+
 
 .mySwiper-8 {
   padding: var(--padding200) !important;
@@ -1215,7 +1224,7 @@ a {
 
 .mySwiper-2-empty>.slider-1-p {
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: .5rem;
 }
 
 @media only screen and (max-width: 380px) {
