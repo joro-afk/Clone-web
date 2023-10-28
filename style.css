@@ -3369,6 +3369,11 @@ a {
   background-color: #fff;
 }
 
+.mySwiper-4>div>.swiper-pagination-bullet-active {
+  background-color: #6b6b6b;
+  outline: none;
+}
+
 .ps4 {
   display: block;
 }
@@ -4209,6 +4214,11 @@ a {
 
 .mySwiper-6>.swiper-button-next {
   right: 60px;
+}
+
+.mySwiper-6>div>.swiper-pagination-bullet-active {
+  background-color: #6b6b6b;
+  outline: #b2b2b2;
 }
 
 .back-container-2 {
